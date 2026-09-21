@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VD1 &amp; LT1</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">I. TÍNH ĐƠN ĐIỆU: Ví dụ 1 &amp; Luyện tập 1</text>
+  </g>
+  <g id="content">
+    <!-- Cot trai: VD1 va LT1 de bai & loi giai -->
+    <rect x="50" y="125" width="650" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <!-- VD1 -->
+    <rect x="75" y="145" width="600" height="225" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="95" y="185" fill="#1D4ED8" font-size="28" font-weight="800">VÍ DỤ 1 (HÌNH 1.4 SGK TRANG 6):</text>
+    <text x="95" y="225" fill="#0F172A" font-size="28" font-weight="600">Đồ thị hàm số <tspan data-pptx-inline-formula="y = |x|">y = |x|</tspan> trên <tspan data-pptx-inline-formula="\mathbb{R}">ℝ</tspan>:</text>
+    <text x="95" y="265" fill="#047857" font-size="28" font-weight="700">• Đi lên từ trái sang phải trên <tspan data-pptx-inline-formula="(0; +\infty)">(0; +∞)</tspan> ⇒ Đồng biến</text>
+    <text x="95" y="305" fill="#DC2626" font-size="28" font-weight="700">• Đi xuống từ trái sang phải trên <tspan data-pptx-inline-formula="(-\infty; 0)">(-∞; 0)</tspan> ⇒ Nghịch biến</text>
+    <text x="95" y="350" fill="#475569" font-size="28">Tập xác định của hàm số là <tspan data-pptx-inline-formula="D = \mathbb{R}">D = ℝ</tspan>.</text>
+
+    <!-- LT1 -->
+    <rect x="75" y="390" width="600" height="255" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="95" y="430" fill="#1E40AF" font-size="28" font-weight="800">LUYỆN TẬP 1 (HÌNH 1.5 SGK TRANG 6):</text>
+    <text x="95" y="470" fill="#0F172A" font-size="28" font-weight="600">Từ đồ thị hàm bậc ba (Hình bên phải), ta có:</text>
+    <text x="95" y="515" fill="#047857" font-size="28" font-weight="800">⇒ Đồng biến trên: <tspan data-pptx-inline-formula="(-\infty; -1)">(-∞; -1)</tspan> và <tspan data-pptx-inline-formula="(1; +\infty)">(1; +∞)</tspan></text>
+    <text x="95" y="560" fill="#DC2626" font-size="28" font-weight="800">⇒ Nghịch biến trên khoảng: <tspan data-pptx-inline-formula="(-1; 1)">(-1; 1)</tspan></text>
+    <text x="95" y="610" fill="#1E40AF" font-size="28" font-weight="700">Đồ thị đổi chiều biến thiên tại 2 đỉnh uốn.</text>
+
+    <!-- Cot phai: TikZ 02 Do thi LT1 -->
+    <rect x="720" y="125" width="510" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="975" y="170" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">ĐỒ THỊ LUYỆN TẬP 1</text>
+    <image href="../images/tikz_02_dothi_lt1.png" x="735" y="190" width="480" height="430" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+</svg>

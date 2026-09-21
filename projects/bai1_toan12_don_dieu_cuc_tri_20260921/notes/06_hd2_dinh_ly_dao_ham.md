@@ -1,0 +1,1 @@
+Định lý cốt lõi: Mối liên hệ giữa dấu đạo hàm và tính đơn điệu. f' dương thì hàm đồng biến, f' âm thì hàm nghịch biến.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">ĐỊNH LÝ</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">I. TÍNH ĐƠN ĐIỆU: HĐ2 &amp; Định lý đạo hàm</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="1180" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <!-- HĐ2 SGK -->
+    <rect x="85" y="150" width="1110" height="130" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="110" y="190" fill="#1D4ED8" font-size="28" font-weight="800">HOẠT ĐỘNG 2 (HĐ2 - SGK TRANG 6):</text>
+    <text x="110" y="230" fill="#0F172A" font-size="28" font-weight="600">Xét hàm số <tspan data-pptx-inline-formula="y = x^2">y = x²</tspan> có đạo hàm <tspan data-pptx-inline-formula="y' = 2x">y' = 2x</tspan>:</text>
+    <text x="110" y="265" fill="#1E40AF" font-size="28" font-weight="700">• Khi <tspan data-pptx-inline-formula="x &gt; 0 \Rightarrow y' &gt; 0">x &gt; 0 ⇒ y' &gt; 0</tspan> (Hàm số đồng biến) | Khi <tspan data-pptx-inline-formula="x &lt; 0 \Rightarrow y' &lt; 0">x &lt; 0 ⇒ y' &lt; 0</tspan> (Hàm số nghịch biến)</text>
+
+    <!-- Định lý SGK -->
+    <text x="85" y="325" fill="#1E40AF" font-size="30" font-weight="800">ĐỊNH LÝ MỐI LIÊN HỆ ĐẠO HÀM VÀ ĐƠN ĐIỆU (SGK TRANG 6):</text>
+    <text x="85" y="365" fill="#0F172A" font-size="28" font-weight="600">Cho hàm số <tspan data-pptx-inline-formula="y = f(x)">y = f(x)</tspan> có đạo hàm trên khoảng <tspan data-pptx-inline-formula="K">K</tspan>:</text>
+
+    <g transform="translate(85, 395)">
+      <rect x="0" y="0" width="540" height="145" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2"/>
+      <text x="25" y="45" fill="#047857" font-size="30" font-weight="800">1. ĐẠO HÀM DƯƠNG (y' > 0):</text>
+      <text x="25" y="90" fill="#0F172A" font-size="28" font-weight="600">Nếu <tspan data-pptx-inline-formula="f'(x) &gt; 0, \forall x \in K">f'(x) &gt; 0, ∀x ∈ K</tspan> thì:</text>
+      <text x="25" y="130" fill="#166534" font-size="30" font-weight="800">⇒ Hàm số <tspan data-pptx-inline-formula="f(x)">f(x)</tspan> ĐỒNG BIẾN trên <tspan data-pptx-inline-formula="K">K</tspan></text>
+
+      <rect x="570" y="0" width="540" height="145" rx="14" fill="#FEF2F2" stroke="#FECACA" stroke-width="2"/>
+      <text x="595" y="45" fill="#DC2626" font-size="30" font-weight="800">2. ĐẠO HÀM ÂM (y' &lt; 0):</text>
+      <text x="595" y="90" fill="#0F172A" font-size="28" font-weight="600">Nếu <tspan data-pptx-inline-formula="f'(x) &lt; 0, \forall x \in K">f'(x) &lt; 0, ∀x ∈ K</tspan> thì:</text>
+      <text x="595" y="130" fill="#B91C1C" font-size="30" font-weight="800">⇒ Hàm số <tspan data-pptx-inline-formula="f(x)">f(x)</tspan> NGHỊCH BIẾN trên <tspan data-pptx-inline-formula="K">K</tspan></text>
+    </g>
+
+    <rect x="85" y="565" width="1110" height="85" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="110" y="618" fill="#1E40AF" font-size="28" font-weight="800">CÔNG CỤ ĐẠO HÀM GIÚP XÉT ĐƠN ĐIỆU MỌI HÀM SỐ PHỨC TẠP!</text>
+  </g>
+
+</svg>

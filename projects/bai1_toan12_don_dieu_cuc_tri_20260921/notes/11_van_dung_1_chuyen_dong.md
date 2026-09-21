@@ -1,0 +1,1 @@
+Vận dụng 1: Giải trọn vẹn tình huống mở đầu. Vận tốc dương thì vật sang phải trong khoảng từ 0 đến 6,05 giây, sau đó sang trái.

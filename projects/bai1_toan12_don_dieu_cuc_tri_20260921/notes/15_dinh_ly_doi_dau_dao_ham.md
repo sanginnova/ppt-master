@@ -1,0 +1,1 @@
+Mục II.b: Định lý đổi dấu đạo hàm. Đổi dấu từ dương sang âm là cực đại, từ âm sang dương là cực tiểu.

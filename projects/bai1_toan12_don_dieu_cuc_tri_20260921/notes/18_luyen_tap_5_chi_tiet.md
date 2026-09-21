@@ -1,0 +1,1 @@
+Luyện tập 5: Thực hành tìm cực trị của hàm bậc ba và hàm phân thức bậc hai trên bậc nhất.

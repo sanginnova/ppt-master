@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VD5 &amp; LT4</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">II. CỰC TRỊ: Ví dụ 5 &amp; Luyện tập 4 (Đọc đồ thị)</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="1180" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <!-- VD5 -->
+    <rect x="85" y="150" width="540" height="490" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="110" y="195" fill="#1D4ED8" font-size="28" font-weight="800">VÍ DỤ 5 (HÌNH 1.8 SGK TRANG 10):</text>
+    <text x="110" y="240" fill="#0F172A" font-size="28" font-weight="600">Tìm các cực trị của đồ thị hàm trùng phương:</text>
+    <text x="110" y="290" fill="#047857" font-size="28" font-weight="800">• Điểm cực đại: <tspan data-pptx-inline-formula="x = 0">x = 0</tspan> và <tspan data-pptx-inline-formula="y_{CĐ} = 2">y_{CĐ} = 2</tspan></text>
+    <text x="110" y="340" fill="#DC2626" font-size="28" font-weight="800">• Điểm cực tiểu: <tspan data-pptx-inline-formula="x = -1, x = 1">x = -1, x = 1</tspan> và <tspan data-pptx-inline-formula="y_{CT} = 1">y_{CT} = 1</tspan></text>
+    <text x="110" y="400" fill="#1E40AF" font-size="28" font-weight="700">Tọa độ 3 điểm cực trị của đồ thị:</text>
+    <text x="110" y="450" fill="#1E40AF" font-size="30" font-weight="800"><tspan data-pptx-inline-formula="A(0; 2)">A(0; 2)</tspan>, <tspan data-pptx-inline-formula="B(-1; 1)">B(-1; 1)</tspan>, <tspan data-pptx-inline-formula="C(1; 1)">C(1; 1)</tspan></text>
+    <text x="110" y="520" fill="#475569" font-size="28">Hàm số có 1 cực đại và 2 cực tiểu bằng nhau.</text>
+
+    <!-- LT4 -->
+    <rect x="655" y="150" width="540" height="490" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="680" y="195" fill="#1E40AF" font-size="28" font-weight="800">LUYỆN TẬP 4 (HÌNH 1.9 SGK TRANG 10):</text>
+    <text x="680" y="240" fill="#0F172A" font-size="28" font-weight="600">Đồ thị hàm bậc ba (Hình 1.9):</text>
+    <text x="675" y="275" fill="#047857" font-size="28" font-weight="800">• Cực đại tại <tspan data-pptx-inline-formula="x = -1">x = -1</tspan>; <tspan data-pptx-inline-formula="y_{CD} = 2">y_CD = 2</tspan></text>
+    <text x="675" y="320" fill="#DC2626" font-size="28" font-weight="800">• Cực tiểu tại <tspan data-pptx-inline-formula="x = 1">x = 1</tspan>; <tspan data-pptx-inline-formula="y_{CT} = -2">y_CT = -2</tspan></text>
+    <text x="680" y="400" fill="#1E40AF" font-size="28" font-weight="700">Tọa độ 2 điểm cực trị của đồ thị:</text>
+    <text x="680" y="450" fill="#1E40AF" font-size="30" font-weight="800"><tspan data-pptx-inline-formula="A(-1; 2)">A(-1; 2)</tspan>  và  <tspan data-pptx-inline-formula="B(1; -2)">B(1; -2)</tspan></text>
+    <text x="680" y="520" fill="#166534" font-size="28" font-weight="700">Rèn luyện kỹ năng quan sát đồ thị trực quan!</text>
+  </g>
+
+</svg>

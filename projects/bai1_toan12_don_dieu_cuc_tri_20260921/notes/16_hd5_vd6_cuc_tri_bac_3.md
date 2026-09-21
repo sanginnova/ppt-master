@@ -1,0 +1,1 @@
+Ví dụ 6: Tìm cực trị hàm bậc ba y = 2x^3 - 9x^2 + 12x - 3. Điểm cực đại x = 1, điểm cực tiểu x = 2.

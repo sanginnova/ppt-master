@@ -1,0 +1,36 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\large]
+  % Cuc dai
+  \begin{scope}[shift={(-4.5,0)}]
+    \node[font=\bfseries\Large, text=blue!90!black] at (2.2, 2.6) {ĐỔI DẤU $(+) \to (-)$: CỰC ĐẠI};
+    \tkzTabInit[lgt=1.8,espcl=2.2,deltacl=0.6]
+    {$x$ /0.9, $f'(x)$ /0.9, $f(x)$ /1.8}
+    {$x_0 - h$, $x_0$, $x_0 + h$}
+    \tkzTabLine{,+,0,-,}
+    \tkzTabVar{-/ , +/ $f(x_0)$ (Cực đại), -/ }
+  \end{scope}
+
+  % Cuc tieu
+  \begin{scope}[shift={(4.5,0)}]
+    \node[font=\bfseries\Large, text=red!90!black] at (2.2, 2.6) {ĐỔI DẤU $(-) \to (+)$: CỰC TIỂU};
+    \tkzTabInit[lgt=1.8,espcl=2.2,deltacl=0.6]
+    {$x$ /0.9, $f'(x)$ /0.9, $f(x)$ /1.8}
+    {$x_0 - h$, $x_0$, $x_0 + h$}
+    \tkzTabLine{,-,0,+,}
+    \tkzTabVar{+/ , -/ $f(x_0)$ (Cực tiểu), +/ }
+  \end{scope}
+\end{tikzpicture}
+
+\end{document}

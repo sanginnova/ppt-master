@@ -1,0 +1,1 @@
+Hướng dẫn bài tập về nhà từ Bài 1.1 đến Bài 1.9 SGK trang 11-12 và tổng kết toàn bộ bài học.

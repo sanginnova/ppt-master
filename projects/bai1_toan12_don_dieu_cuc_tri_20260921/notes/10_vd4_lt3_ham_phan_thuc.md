@@ -1,0 +1,1 @@
+Ví dụ 4: Hàm phân thức y = (x - 1)/(x + 1). Lưu ý không được dùng ký hiệu hợp khi kết luận các khoảng đồng biến.

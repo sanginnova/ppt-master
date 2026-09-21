@@ -1,0 +1,1 @@
+Mục II.a: Khái niệm cực trị của hàm số. Điểm cực đại là đỉnh đồi cao nhất trong lân cận, điểm cực tiểu là đáy thung lũng.

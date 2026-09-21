@@ -1,0 +1,1 @@
+Ví dụ 7 và Ví dụ 8: Hàm trùng phương có 3 cực trị, trong khi hàm phân thức y = (x+1)/(x-2) đạo hàm luôn âm nên không có cực trị.

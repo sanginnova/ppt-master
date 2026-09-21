@@ -1,0 +1,1 @@
+Ví dụ 1 và Luyện tập 1: Rèn luyện kỹ năng quan sát đồ thị hàm trị tuyệt đối và hàm bậc ba để chỉ ra các khoảng đồng biến, nghịch biến.

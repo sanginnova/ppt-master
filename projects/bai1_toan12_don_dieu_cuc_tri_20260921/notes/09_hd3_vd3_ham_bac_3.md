@@ -1,0 +1,1 @@
+Ví dụ 3: Xét tính đơn điệu của hàm bậc ba y = -x^3 + 3x^2 - 1 qua đầy đủ 4 bước và bảng biến thiên.

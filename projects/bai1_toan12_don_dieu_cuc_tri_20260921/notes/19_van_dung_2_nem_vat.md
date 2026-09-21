@@ -1,0 +1,1 @@
+Vận dụng 2: Bài toán phóng vật đạt độ cao lớn nhất sau 1 giây với độ cao 6 mét.

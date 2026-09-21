@@ -1,0 +1,1 @@
+Chú ý phân biệt rõ: Điểm cực trị của hàm số x0, Giá trị cực trị y0, và Điểm cực trị của đồ thị hàm số M(x0; y0).

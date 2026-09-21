@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">QUY TRÌNH</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">I. TÍNH ĐƠN ĐIỆU: b. Quy trình 4 bước xét qua BBT</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="1180" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">4 BƯỚC KHẢO SÁT CHIỀU BIẾN THIÊN QUA BBT (SGK TRANG 7):</text>
+
+    <g transform="translate(85, 205)">
+      <rect x="0" y="0" width="1110" height="95" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+      <text x="25" y="42" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC ①: TÌM TẬP XÁC ĐỊNH</text>
+      <text x="25" y="80" fill="#0F172A" font-size="28" font-weight="600">Tìm tập xác định D của hàm số y = f(x).</text>
+
+      <rect x="0" y="110" width="1110" height="100" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+      <text x="25" y="152" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC ②: TÍNH ĐẠO HÀM VÀ TÌM ĐIỂM ĐẶC BIỆT</text>
+      <text x="25" y="190" fill="#0F172A" font-size="28" font-weight="600">Tính đạo hàm y' = f'(x). Tìm các điểm x_i mà tại đó f'(x_i) = 0 hoặc f'(x) không tồn tại.</text>
+
+      <rect x="0" y="225" width="1110" height="100" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+      <text x="25" y="267" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC ③: LẬP BẢNG BIẾN THIÊN (BBT)</text>
+      <text x="25" y="305" fill="#0F172A" font-size="28" font-weight="600">Sắp xếp các điểm x_i theo thứ tự tăng dần. Xét dấu f'(x) và vẽ mũi tên chiều biến thiên y.</text>
+
+      <rect x="0" y="340" width="1110" height="95" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2"/>
+      <text x="25" y="382" fill="#047857" font-size="28" font-weight="800">BƯỚC ④: NÊU KẾT LUẬN SƯ PHẠM</text>
+      <text x="25" y="420" fill="#166534" font-size="28" font-weight="700">Kết luận cụ thể các khoảng đồng biến, khoảng nghịch biến của hàm số.</text>
+    </g>
+  </g>
+
+</svg>

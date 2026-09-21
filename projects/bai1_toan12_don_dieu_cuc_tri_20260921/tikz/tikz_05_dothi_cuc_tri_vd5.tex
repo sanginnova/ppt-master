@@ -1,0 +1,34 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=1.1,font=\large]
+  \draw[->, thick] (-2.2,0) -- (3.5,0) node[below] {$x$};
+  \draw[->, thick] (0,-2.2) -- (0,3.5) node[left] {$y$};
+  \node[below left] at (0,0) {$O$};
+
+  \draw[very thick, blue!80!black, smooth, domain=-2.1:2.3] plot (\x, {0.6*((\x)^3 - 3*(\x)) + 1});
+
+  % Diem Cuc Dai
+  \coordinate (A) at (-1, 2.2);
+  \draw[dashed, gray] (-1,0) node[below, text=black, font=\bfseries] {$x_{CĐ} = -1$} -- (A) -- (0,2.2) node[left, text=black, font=\bfseries] {$y_{CĐ} = 2$};
+  \fill[blue!90!black] (A) circle (3pt) node[above=4pt, text=blue!90!black, font=\bfseries] {Cực Đại $A(-1; 2)$};
+  \draw[thick, blue!80!black, <->] (-1.8, 2.2) -- (-0.2, 2.2);
+
+  % Diem Cuc Tieu
+  \coordinate (B) at (1, -0.2);
+  \draw[dashed, gray] (1,0) node[above=4pt, text=black, font=\bfseries] {$x_{CT} = 1$} -- (B) -- (0,-0.2) node[left, text=black, font=\bfseries] {$y_{CT} = -2$};
+  \fill[red!90!black] (B) circle (3pt) node[below=6pt, text=red!90!black, font=\bfseries] {Cực Tiểu $B(1; -2)$};
+  \draw[thick, red!80!black, <->] (0.2, -0.2) -- (1.8, -0.2);
+\end{tikzpicture}
+
+\end{document}

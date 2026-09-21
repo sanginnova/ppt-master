@@ -1,0 +1,1 @@
+Mục I.a: HĐ1 và Khái niệm tính đơn điệu. Các em quan sát định nghĩa bằng ngôn ngữ giải tích: x1 < x2 kéo theo f(x1) < f(x2) thì đồng biến, ngược lại là nghịch biến.

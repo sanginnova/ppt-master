@@ -1,1 +1,1 @@
-Chào mừng các em học sinh đến với chương trình Toán 12. Bài mở đầu Chương I: Tính đơn điệu và cực trị của hàm số.
+Kính chào quý thầy cô và các em học sinh. Hôm nay chúng ta bắt đầu bài học đầu tiên của Giải tích 12: Tính đơn điệu và cực trị của hàm số.

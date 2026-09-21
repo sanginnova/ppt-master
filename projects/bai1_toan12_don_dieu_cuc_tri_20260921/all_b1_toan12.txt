@@ -1,0 +1,379 @@
+0: CHƯƠNG I. ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT HÀM SỐ
+1: Bài 1 – TÍNH ĐƠN ĐIỆU VÀ CỰC TRỊ CỦA HÀM SỐ
+2: I. TÍNH ĐƠN ĐIỆU CỦA HÀM SỐ.
+3: a) Khái niệm tính đơn điệu của hàm số.
+4: Giả sử  là một khoảng, một đoạn hoặc một nửa khoảng và  là hàm số xác định trên .
+5: Hàm số  được gọi là đồng biến trên  nếu .
+6: Hàm số  được gọi là nghịch biến trên  nếu
+7: Chú ý
+8: Nếu hàm số đồng biến trên  thì đồ thị của hàm số đi lên từ trái sang phải
+9: Nếu hàm số nghịch biến trên  thì đồ thị của hàm số đi xuống từ trái sang phải
+10: a) Hàm số đồng biến trên .                         b) Hàm số nghịch biến trên (a; b).
+11: Hàm số đồng biến hay nghịch biến trên  còn được gọi chung là đơn điệu trên K. Việc tìm các khoảng đồng biến, nghịch biến của hàm số còn được gọi là tìm các khoảng đơn điệu (hay xét tính đơn điệu) của hàm số.
+12: Khi xét tính đơn điệu của hàm số mà không chỉ rõ tập  thì ta hiểu là xét trên tập xác định của hàm số đó.
+13: ĐỊNH LÍ.
+14: Cho hàm số  có đạo hàm trên khoảng .
+15: Nếu  với mọi  thì hàm số  đồng biến trên khoảng .
+16: Nếu  với mọi  thì hàm số  nghịch biến trên khoảng .
+17: Chú ý.
+18: Định lí trên vẫn đúng trong trường hợp  bằng 0 tại một số hữu hạn điểm trong khoảng .
+19: Người ta chứng minh được rằng, nếu  với mọi  thì hàm số  không đổi trên khoảng .
+20: b) Sử dụng bảng biến thiên xét tính đơn điệu của hàm số:
+21: Các bước để xét tính đơn điệu của hàm số  :
+22: ①. Tìm tập xác định của hàm số.
+23: ②. Tính đạo hàm . Tìm các điểm  mà tại đó đạo hàm bằng 0 hoặc không tồn tại.
+24: ③. Sắp xếp các điểm  theo thứ tự tăng dần và lập bảng biến thiên của hàm số.
+25: ④. Nêu kết luận về khoảng đồng biến, nghịch biến của hàm số.
+26: GIẢI HOẠT ĐỘNG SGK
+27: Trả lời câu hỏi Hoạt động 1 trang 6 SGK Toán 12 Kết nối tri thức
+Quan sát đồ thị của hàm số  (H.1.2)
+28: a) Hàm số đồng biến trên khoảng nào?
+b) Hàm số nghịch biến trên khoảng nào?
+29: Phương pháp giải:
+Sử dụng kiến thức về tính đồng biến, nghịch biến của hàm số để tìm khoảng đồng biến, nghịch biến: Giả sử K là một khoảng, một đoạn hoặc một nửa khoảng và  là hàm số xác định trên .
+30: Hàm số  được gọi là đồng biến trên  nếu
+31: Hàm số  được gọi là nghịch biến trên K nếu
+32: Lời giải
+33: Từ đồ thị ta thấy:
+34: Xét khoảng  :  thì  hay .
+Suy ra, hàm số  đồng biến trên .
+35: Xét khoảng  :  thì  hay .
+Suy ra, hàm số  nghịch biến trên .
+36: Ví dụ 1: Hình 1.4 là đồ thị của hàm số . Hãy tìm các khoảng đồng biến, khoảng nghịch biến của hàm số.
+37: Lời giải
+38: Tập xác định của hàm số là .
+39: Từ đồ thị suy ra: Hàm số đồng biến trên khoảng , nghịch biến trên khoảng .
+40: Trả lời câu hỏi Luyện tập 1 trang 6 SGK Toán 12 Kết nối tri thức
+Hình 1.5 là đồ thị của hàm số . Hãy tìm các khoảng đồng biến, khoảng nghịch biến của hàm số.
+41: Phương pháp giải:
+Sử dụng kiến thức về tính đồng biến, nghịch biến của hàm số để tìm khoảng đồng biến, nghịch biến:
+42: Nếu hàm số đồng biến trên K thì đồ thị của hàm số đi lên từ trái sang phải.
+43: Nếu hàm số nghịch biến trên  thì đồ thị của hàm số đi xuống từ trái sang phải.
+44: Lời giải
+45: Tập xác định của hàm số là .
+Trong khoảng  và  thì đồ thị hàm số  đi lên từ trái sang phải nên hàm số  đồng biến trên khoảng  và .
+Trong khoảng  thì đồ thị hàm số  đi xuống từ trái sang phải nên hàm số  nghịch biến trên khoảng .
+46: Trả lời câu hỏi Hoạt động 2 trang 6 SGK Toán 12 Kết nối tri thức
+47: a) Xét dấu đạo hàm của hàm số trên các khoảng . Nêu nhận xét về mối quan hệ giữa tính đồng biến, nghịch biến và dấu của đạo hàm trên mỗi khoảng này.
+b) Có nhận xét gì về đạo hàm y' của hàm số y trên khoảng  ?
+48: Phương pháp giải:
+Sử dụng kiến thức về tính đồng biến, nghịch biến của hàm số để tìm nhận xét:
+49: Nếu hàm số đồng biến trên  thì đồ thị của hàm số đi lên từ trái sang phải.
+50: Nếu hàm số nghịch biến trên K thì đồ thị của hàm số đi xuống từ trái sang phải.
+51: Lời giải
+52: a) + Xét khoảng  ta có:
+53: Trong khoảng  ta thấy hàm số y nghịch biến và đạo hàm .
+54: Xét khoảng  ta có: 
+Trong khoảng  ta thấy hàm số y đồng biến và đạo hàm .
+b) Trong khoảng  ta có:
+55: Trong khoảng  ta thấy hàm số y không đổi và đạo hàm .
+56: Ví dụ 2: Tìm các khoảng đồng biến, khoảng nghịch biến của hàm số .
+57: Lời giải
+58: Tập xác định của hàm số là .
+59: Ta có:  với  với .
+60: Do đó, hàm số đồng biến trên khoảng , nghịch biến trên khoảng .
+61: Trả lời câu hỏi Luyện tập 2 trang 7 SGK Toán 12 Kết nối tri thức
+Tìm các khoảng đồng biến, khoảng nghịch biến của hàm số .
+Phương pháp giải:
+Sử dụng kiến thức về định lí về tính đồng biến, nghịch biến của hàm số để tìm khoảng đồng biến, nghịch biến: Cho hàm số  có đạo hàm trên khoảng K.
+62: Nếu  với mọi  thì hàm số  đồng biến trên khoảng .
+63: Nếu  với mọi  thì hàm số  nghịch biến trên khoảng .
+64: Lời giải
+65: Tập xác định của hàm số là .
+Ta có:  với ;  với .
+Do đó, hàm số đồng biến trên khoảng  và nghịch biến trên khoảng .
+66: Trả lời câu hỏi Hoạt động 3 trang 7 SGK Toán 12 Kết nối tri thức
+Cho hàm số .
+a) Tính đạo hàm  và tìm các điếm  mà .
+b) Lập bảng biến thiên của hàm số, tức là lập bảng thể hiện dấu của đạo hàm và sự đồng biến, nghịch biến của hàm sổ trên các khoảng tương ứng.
+c) Nếu kết luận về khoảng đồng biến, nghịch biến của hàm số.
+67: Lời giải
+68: a)
+69: Vậy  thì 
+b) Bảng biến thiên:
+70: c) Hàm số  đồng biến trên khoảng  và .
+71: Hàm số  nghịch biến trên khoảng .
+72: Ví dụ 3: Tìm các khoảng đơn điệu của hàm số .
+73: Lời giải
+74: Tập xác định của hàm số là .
+75: Ta có:  hoặc .
+76: Lập bảng biến thiên của hàm số:
+77: Từ bảng biến thiên, ta có:
+78: Hàm số đồng biến trên các khoảng  và .
+79: Hàm số nghịch biến trên các khoảng  và .
+80: Ví dụ 4: Xét chiều biến thiên của hàm số .
+81: Lời giải
+82: Tập xác định của hàm số là .
+83: Ta có: , với mọi .
+84: Việc tìm các khoảng đồng biến, nghịch biến của hàm số còn được nói gọn là xét chiều biến thiên của hàm số.
+85: Lập bảng biến thiên của hàm số:
+86: Từ bảng biến thiên, ta có: Hàm số đồng biến trên các khoảng  và .
+87: Trả lời câu hỏi Luyện tập 3 trang 9 SGK Toán 12 Kết nối tri thức
+Tìm các khoảng đơn điệu của các hàm số sau:
+a) ;		b) .
+88: Phương pháp giải:
+89: Sử dung kiến thức về các bước để xét tính đơn điệu của hàm số để tìm khoảng đơn điệu của hàm số: Các bước để xét tính đơn điệu của hàm số  :
+90: Tìm tập xác định của hàm số.
+91: Tính đạo hàm . Tìm các điểm  mà tại đó đạo hàm bằng 0 hoặc không tồn tại.
+92: Sắp xếp các điểm  theo thứ tự tăng dần và lập bảng biến thiên của hàm số.
+93: Nêu kết luận về khoảng đồng biến, nghịch biến của hàm số.
+94: Lời giải
+95: a) Tập xác định: .
+96: Ta có: 
+Lập bảng biến thiên của hàm số:
+97: Hàm số  đồng biến trên khoảng  và .
+Hàm số  nghịch biến trên khoảng .
+b) Tập xác định: .
+98: Ta có: 
+ (thỏa mãn)
+Lập bảng biến thiên của hàm số:
+99: Hàm số  đồng biến trên khoảng  và .
+Hàm số  nghịch biến trên khoảng  và .
+100: Trả lời câu hỏi Vận dụng 1 trang 9 SGK Toán 12 Kết nối tri thức
+Giải bài toán trong tình huống mở đầu bằng cách thực hiện lần lượt các yêu cầu sau:
+a) Theo ý nghĩa cơ học của đạo hàm, vận tốc v(t) là đạo hàm của s(t). Hãy tìm vận tốc v(t).
+b) Xét dấu của hàm v(t), từ đó suy ra câu trả lời.
+101: Bài toán mở đầu:
+Xét một chất điểm chuyển động trên một trục số nằm ngang, chiều dương từ trái sang phải (H.1.1). Giả sử vị trí  (mét) của chât điểm trên trục số đã chọn tại thời điểm  (giây) được cho bởi công thức . Hỏi trong khoảng thời gian nào thì chất điểm chuyển động sang phải, trong khoảng thời gian nào thì chất điểm chuyển động sang trái?
+102: Phương pháp giải:
+a) Sử dụng, kiến thức về ý nghĩa cơ học của đạo hàm để tìm hàm vận tốc: Theo ý nghĩa cơ học, vận tốc v(t) là đạo hàm của hàm số .
+b) Chất điểm chuyển động theo chiều dương khi .
+103: Chất điểm chuyển động theo chiều âm khi
+104: Lời giải
+105: a) Ta có: 
+b) Tập xác định: .
+106: Ta có:
+107: Chất điểm chuyển động theo chiều dương (sang bên phải) khi , tức là .
+Chất điểm chuyển động theo chiều âm (sang bên trái) khi , tức là .
+108: II. CỰC TRỊ CỦA HÀM SỐ
+109: a) Khái niệm cực trị của hàm số:
+110: Cho hàm số  xác định và liên tục trên khoảng  (  có thể là  có thể là  ) và điểm .
+111: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực đại tại .
+112: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực tiểu tại .
+113: Chú ý
+114: Nếu hàm số  đạt cực đại tại  thì  được gọi là điểm cực đại của hàm số . Khi đó,  được gọi là giá trị cực đại của hàm số  và kí hiệu là  hay . Điểm  được gọi là điểm cực đại của đồ thị hàm số.
+115: Nếu hàm số  đạt cực tiểu tại  thì  được gọi là điểm cực tiểu của hàm số . Khi đó,  được gọi là giá trị cực tiểu của hàm số  và kí hiệu là  hay .
+116: Điểm  được gọi là điểm cực tiểu của đồ thị hàm số.
+117: Các điểm cực đại và điểm cực tiểu được gọi chung là điểm cực trị. Giá trị cực đại và giá trị cực tiểu được gọi chung là giá trị cực trị (hay cực trị) của hàm số.
+118: b) Cách tìm cực trị của hàm số:
+119: ĐỊNH LÍ
+120: Giả sử hàm số  liên tục trên khoảng  chứa điểm  và có đạo hàm trên các khoảng  và . Khi đó:
+121: a) Nếu  với mọi  và  với mọi  thì  là một điểm cực tiểu của hàm số .
+122: b) Nếu  với mọi  và  với mọi  thì  là một điểm cực đại của hàm số .
+123: Chú ý:
+124: GIẢI HOẠT ĐỘNG SGK
+125: Trả lời câu hỏi Hoạt động 4 trang 9 SGK Toán 12 Kết nối tri thức
+Quan sát đồ thị của hàm số  (H.1.7). Xét dấu đạo hàm của hàm số đã cho và hoàn thành các bảng sau vào vớ:
+126: Phương pháp giải:
+127: Sử dụng kiến thức về định lí về tính đồng biến, nghịch biến của hàm số để tìm khoảng đồng biến, nghịch biến: Cho hàm số  có đạo hàm trên khoảng K.
+128: Nếu  với mọi  thì hàm số  đồng biến trên khoảng .
+129: Nếu  với mọi  thì hàm số  nghịch biến trên khoảng K.
+130: Lời giải
+131: Ví dụ 5: Hình 1.8 là đồ thị của hàm số . Hãy tìm các cực trị của hàm số.
+132: Lời giải
+133: Từ đồ thị hàm số, ta có:
+134: Hàm số đạt cực tiểu tại  và .
+135: Hàm số đạt cực đại tại  và .
+136: Hàm số đạt cực tiểu tại  và .
+137: Trả lời câu hỏi Luyện tập 4 trang 10 SGK Toán 12 Kết nối tri thức
+Hình 1.9 là đồ thị của hàm số . Hãy tìm các cực trị của hàm số.
+138: Phương pháp giải:
+Sử dụng kiến thức về định nghĩa cực đại, cực tiểu của hàm số để tìm cực đại, cực tiểu của hàm số: Cho hàm số  xác định và liên tục trên khoảng  (  có thể là , b có thể là  ) và điểm .
+139: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực đại tại .
+140: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực tiểu tại .
+141: Lời giải
+142: Từ đồ thị hàm số, ta có:
+Hàm số đạt cực tiểu tại  và .
+Hàm số đạt cực đại tại  và
+143: Trả lời câu hỏi Hoạt động 5 trang 10 SGK Toán 12 Kết nối tri thức
+Cho hàm số .
+a) Tính đạo hàm  và tìm các điểm mà tại đó đạo hàm  bằng 0 .
+b) Lập bảng biến thiên của hàm số.
+c) Từ bảng biến thiên suy ra các điểm cực trị của hàm số.
+144: Phương pháp giải:
+Sử dụng kiến thức về định nghĩa cực đại, cực tiểu của hàm số để tìm cực đại, cực tiểu của hàm số: Cho hàm số  xác định và liên tục trên khoảng  (a có thể là  có thể là  ) và điểm .
+145: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực đại tại .
+146: Nếu tồn tại số  sao cho  với mọi  và  thì ta nói hàm số  đạt cực tiểu tại .
+147: Lời giải
+148: a) Tập xác định: .
+149: Vậy  thì 
+b) Bảng biến thiên:
+150: c) Từ bảng biến thiên ta có:
+151: Hàm số  có điểm cực đại là .
+Hàm số  có điểm cực tiểu là .
+152: Ví dụ 6: Tìm cực trị của hàm số .
+153: Lời giải
+154: Tập xác định của hàm số là .
+155: Ta có:  hoặc .
+156: Lập bảng biến thiên của hàm số:
+157: Từ bảng biến thiên, ta có:
+158: Hàm số đạt cực đại tại  và .
+159: Hàm số đạt cực tiểu tại  và .
+160: Ví dụ 7: Tìm cực trị của hàm số .
+161: Lời giải
+162: Tập xác định của hàm số là .
+163: Ta có:  hoặc .
+164: Lập bảng biến thiên của hàm số:
+165: Từ bảng biến thiên, ta có:
+166: Hàm số đạt cực đại tại  và .
+167: Hàm số đạt cực tiểu tại  và .
+168: Ví dụ 8: Tìm cực trị của hàm số .
+169: Lời giải
+170: Tập xác định của hàm số là .
+171: Ta có: , với mọi .
+172: Lập bảng biến thiên của hàm số:
+173: Từ bảng biến thiên suy ra hàm số không có cực trị.
+174: Trả lời câu hỏi Luyện tập 5 trang 12 SGK Toán 12 Kết nối tri thức
+Tìm cực trị của các hàm số sau:
+a) ;			b) .
+175: Phương pháp giải:
+Sử dụng kiến thức về cách tìm cực trị của hàm số  để tìm cực trị của hàm số:
+176: Tìm tập xác định của hàm số.
+177: Tính đạo hàm . Tìm các điểm mà tại đó đạo hàm  bẳng 0 hoặc đạo hàm không tồn tại.
+178: Lập bảng biến thiên của hàm số.
+179: Từ bảng biến thiên suy ra các cực trị của hàm số.
+180: Lời giải
+181: a) Tập xác định của hàm số là .
+182: Ta có: 
+Bảng biến thiên:
+183: Từ bảng biến thiên ta có:
+Hàm số đạt cực đại tại  và .
+Hàm số đạt cực tiểu tại  và .
+b) Tập xác định: .
+184: Ta có: 
+ (thỏa mãn)
+185: Lập bảng biến thiên của hàm số:
+186: Từ bảng biến thiên ta có:
+Hàm số đạt cực đại tại  và .
+Hàm số đạt cực tiểu tại  và .
+187: Trả lời câu hỏi Vận dụng 2 trang 12 SGK Toán 12 Kết nối tri thức
+Một vật được phóng thẳng đứng lên trên từ độ cao  với vận tốc ban đầu là . Trong Vật lí, ta biết răng khi bớ qua sức cản của không khí thì độ cao  (mét) của vật sau t (giây) được cho bới công thức: . Hỏi tại thời điếm nào thì vật đạt độ cao lớn nhất?
+Phương pháp giải:
+Sử dụng kiến thức về cách tìm cực trị của hàm số  để tìm thời điểm vật đạt độ cao lớn nhất:
+188: Tìm tập xác định của hàm số.
+189: Tính đạo hàm . Tìm các điểm mà tại đó đạo hàm  bằng 0 hoặc đạo hàm không tồn tại.
+190: Lập bảng biến thiên của hàm số.
+191: Từ bảng biến thiên suy ra các cực trị của hàm số.
+192: Lời giải
+193: Xét hàm số: .
+Tập xác định của hàm số là .
+Ta có:
+194: Bảng biến thiên:
+195: Từ bảng biến thiên ta có:
+Hàm số đạt cực đại tại ,
+Vậy thời điểm vật đạt độ cao lớn nhất là  giây
+196: III. GIẢI BÀI TẬP SGK
+197: Bài 1: Tìm các khoảng đồng biến, khoảng nghịch biến của các hàm số có đồ thị như sau:
+a) Đồ thị hàm số  (H.1.11);
+198: Tìm các khoảng đồng biến, khoảng nghịch biến của các hàm số có đồ thị như sau:
+a) Đồ thị hàm số
+199: b) Đồ thị hàm số
+200: Lời giải
+201: a) Hàm số  đồng biến trên  và . Hàm số  nghịch biến trên .
+b) Hàm số  đồng biến trên  và . Hàm số  nghịch biến trên  và .
+202: Bài 2: Xét sự đồng biến, nghịch biến của các hàm số sau:
+a) ;		b) .
+203: Lời giải
+204: a) Tập xác định: .
+205: Ta có: 
+Lập bảng biến thiên của hàm số:
+206: Hàm số  đồng biến trên khoảng  và .
+Hàm số  nghịch biến trên khoảng .
+b) Tập xác định: .
+207: Ta có: 
+Vì 
+Do đó, .
+Vậy hàm số  nghịch biến trên .
+208: Bài 3: Tìm các khoảng đơn điệu của các hàm số sau:
+a) ;		b) .	
+Phương pháp giải - Xem chi tiết
+209: Lời giải
+210: a) Tập xác định: .
+211: Ta có: 
+Do đó, hàm số  đồng biến trên  và .
+b) Tập xác định: .
+212: Ta có:   (thỏa mãn)
+Lập bảng biến thiên của hàm số:
+213: Từ bảng biến thiên ta thấy:
+Hàm số  nghịch biến trên khoảng  và .
+Hàm số  đồng biến trên khoảng  và .
+214: Bài 4: Xét chiều biến thiên của các hàm số sau:
+a) ;		b) .
+215: Lời giải
+216: a) Tập xác định: .
+217: Ta có: 
+Lập bảng biến thiên của hàm số:
+218: Hàm số  đồng biến trên khoảng .
+Hàm số  nghịch biến trên khoảng .
+b) Tập xác định: .
+219: Ta có: 
+Lập bảng biến thiên của hàm số:
+220: Hàm số  nghịch biến trên khoảng .
+Hàm số  đồng biến trên khoảng .
+221: Bài 5: Giả sử số dân của một thị trấn sau t năm kể từ năm 2000 được mô tả bởi hàm số , trong đó  được tính bằng nghìn người.
+a) Tính số dân của thị trân đó vão các năm 2000 và 2015.
+b) Tính đạo hàm  và . Từ đó giải thích tại sao dân số của thị trấn đó luôn tăng nhưng sẽ không vượt qua một ngưỡng nào đó.
+222: Lời giải
+223: a) Dân số của thị trấn đó vào năm 2000 là:  (nghìn người)
+224: Dân số của thị trấn đó vào năm 2015 là:  (nghìn người)
+b) Ta có: ,
+225: Vì  và nên dân số của thị trấn đó luôn tăng nhưng sẽ không vượt qua ngưỡng 25 nghìn người.
+226: Bài 6: Đồ thị của đạo hàm bậc nhất y = f'(x) của hàm số f(x) được cho trong hình 1.13.
+227: a) Hàm số f(x) đồng biến trên những khoảng nào? Giải thích.
+228: b) Tại giá trị nào của x thì f(x) có cực đại và cực tiểu? Giải thích.
+229: Lời giải
+230: Dựa vào đồ thị của hàm y = f'(x), ta có bảng biến thiên của hàm số y = f(x) như sau
+231: a) Dựa vào bảng biến thiên, ta có:
+232: Hàm số đồng biến trên các khoảng (2; 4) và (6; +∞).
+233: b) Dựa vào bảng biến thiên, ta có:
+234: Hàm số đạt cực tiểu tại x = 2 và x = 6.
+235: Hàm số đạt cực đại tại x = 4.
+236: Bài 7: Tìm cực trị của các hàm số sau:
+237: a) ;		b) ;
+238: c) ;				d)
+239: Lời giải
+240: a) Tập xác định của hàm số là .
+241: Có  hoặc .
+242: Lập bảng biến thiên của hàm số
+243: Dựa vào bảng biến thiên, ta có
+244: Hàm số đạt cực đại tại  và .
+245: Hàm số đạt cực tiếu tại  và .
+b) Tập xác định của hàm số là .
+246: Có  hoặc  hoặc .
+247: Lập bảng biến thiên của hàm số
+248: Dựa vào bảng biến thiên, ta có:
+249: Hàm số đạt cực tiếu tại  và .
+250: Hàm số đạt cực đại tại  và .
+251: Hàm số đạt cực tiếu tại  và .
+252: c) Tập xác định của hàm số là .
+253: Có ;
+254: Có  hoặc .
+255: Lập bảng biến thiên của hàm số
+256: Dựa vào bảng biến thiên, ta có:
+257: Hàm số đạt cực đại tại  và .
+258: Hàm số đạt cực tiếu tại  và .
+d) Tập xác định của hàm số là .
+259: Có .
+260: Có .
+261: Lập bảng biến thiên của hàm số
+262: Dựa vào bảng biến thiên ta có:
+263: Hàm số đạt cực đại tại x  và .
+264: Hàm số không có cực tiếu.
+265: Bài 8: Cho hàm số .
+a) Tính các giới hạn  và . Từ đó suy ra hàm số không có đạo hàm tại .
+b) Sử dụng định nghĩa, chứng minh hàm số có cực tiểu tại . (Xem Hình 1.4)
+266: Lời giải
+267: a)
+268: Vì  nên hàm số không có đạo hàm tại .
+b) Đồ thị hàm số  :
+269: Ta có: 
+Hàm số  liên tục và xác định trên 
+Với số  ta có: Với  và  thì 
+Do đó, hàm số  có cực tiểu là .
+270: Bài 9: Giả sử doanh số (tính bẳng số sản phẩm) của một sản phẩm mới (trong vòng một số năm nhất định) tuân theo quy luật logistic được mô hình hóa bằng hàm số , trong đó thời gian  được tính bằng năm, kể từ khi phát hành sản phẩm mới. Khi đó, đạo hàm  sẽ biểu thị tốc độ bán hàng. Hỏi sau khi phát hành bao nhiêu năm thì tốc độ bán hàng là lớn nhất?
+271: Lời giải
+272: Ta có: 
+Tốc độ bán hàng là lớn nhất khi  lớn nhất.
+273: Đặt
+274: Ta có bảng biến thiên với  :
+275: Vậy sau khi phát hành khoảng  năm thì thì tốc độ bán hàng là lớn nhất.

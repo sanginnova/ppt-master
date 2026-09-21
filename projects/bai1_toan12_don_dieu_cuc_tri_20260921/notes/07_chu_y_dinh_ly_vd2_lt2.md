@@ -1,0 +1,1 @@
+Chú ý mở rộng: Định lý vẫn đúng khi đạo hàm bằng 0 tại hữu hạn điểm, như hàm số y = x^3 trong Luyện tập 2 có đạo hàm bằng 0 tại x = 0 nhưng vẫn đồng biến trên R.

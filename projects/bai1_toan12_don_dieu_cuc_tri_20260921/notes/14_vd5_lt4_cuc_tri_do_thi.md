@@ -1,0 +1,1 @@
+Ví dụ 5 và Luyện tập 4: Đọc cực trị trực tiếp từ đồ thị hàm trùng phương và hàm bậc ba.

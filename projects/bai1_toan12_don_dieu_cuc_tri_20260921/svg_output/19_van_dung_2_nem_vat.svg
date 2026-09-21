@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VẬN DỤNG 2</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">II. CỰC TRỊ: Vận dụng 2 — Độ cao lớn nhất</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="600" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="28" font-weight="800">VẬN DỤNG 2 (SGK TOÁN 12 - TRANG 12):</text>
+    <text x="85" y="220" fill="#0F172A" font-size="28" font-weight="600">Vật phóng thẳng đứng từ độ cao 1m:</text>
+    <rect x="85" y="240" width="530" height="60" rx="10" fill="#FEF3C7"/>
+    <text x="105" y="280" fill="#B45309" font-size="30" font-weight="800"><tspan data-pptx-inline-formula="h(t) = 1 + 10t - 5t^2">h(t) = 1 + 10t - 5t²</tspan>  <tspan data-pptx-inline-formula="(t \ge 0)">(t ≥ 0)</tspan></text>
+
+    <text x="85" y="335" fill="#B91C1C" font-size="30" font-weight="800">Hỏi: Tại thời điểm nào vật đạt độ cao cực đại?</text>
+
+    <g transform="translate(85, 365)">
+      <text x="0" y="35" fill="#047857" font-size="28" font-weight="800">ÁP DỤNG ĐẠO HÀM TÌM CỰC TRỊ:</text>
+      <text x="0" y="75" fill="#0F172A" font-size="28" font-weight="600">• Đạo hàm: <tspan data-pptx-inline-formula="h'(t) = 10 - 10t">h'(t) = 10 - 10t</tspan></text>
+      <text x="0" y="115" fill="#1E40AF" font-size="28" font-weight="800">• <tspan data-pptx-inline-formula="h'(t) = 0 \Leftrightarrow 10 - 10t = 0 \Leftrightarrow t = 1">h'(t) = 0 ⇔ 10 - 10t = 0 ⇔ t = 1</tspan> (s)</text>
+      
+      <rect x="0" y="145" width="530" height="110" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2"/>
+      <text x="20" y="185" fill="#166534" font-size="28" font-weight="800">⇒ Sau 1 giây, vật đạt độ cao cực đại:</text>
+      <text x="20" y="225" fill="#166534" font-size="32" font-weight="800"><tspan data-pptx-inline-formula="h_{\max} = h(1) = 1 + 10(1) - 5(1)^2 = 6\text{ m}">h_{max} = h(1) = 6 m</tspan></text>
+    </g>
+
+    <!-- Cot phai: TikZ 09 Do thi chuyen dong nem vat -->
+    <rect x="670" y="125" width="560" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="950" y="170" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">ĐỒ THỊ QUỸ ĐẠO ĐỘ CAO h(t)</text>
+    <image href="../images/tikz_09_van_dung_2.png" x="690" y="195" width="520" height="425" preserveAspectRatio="xMidYMid meet"/>
+    <text x="950" y="645" fill="#64748B" font-size="28" font-weight="600" text-anchor="middle">Đỉnh parabol biểu thị giá trị cực đại thực tế</text>
+  </g>
+
+</svg>

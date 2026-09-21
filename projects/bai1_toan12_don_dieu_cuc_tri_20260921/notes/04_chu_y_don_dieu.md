@@ -1,0 +1,1 @@
+Chú ý hình học: Đồ thị đồng biến đi lên từ trái sang phải, nghịch biến đi xuống. Khi không nói rõ tập K thì hiểu là xét trên tập xác định.

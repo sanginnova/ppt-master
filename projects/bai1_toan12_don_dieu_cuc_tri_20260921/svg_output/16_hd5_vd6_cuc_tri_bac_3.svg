@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">HĐ5 &amp; VD6</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">II. CỰC TRỊ: HĐ5 &amp; Ví dụ 6 (Hàm bậc ba)</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="600" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="28" font-weight="800">VÍ DỤ 6 (SGK TOÁN 12 - TRANG 11):</text>
+    <text x="85" y="220" fill="#0F172A" font-size="28" font-weight="700">Tìm cực trị: <tspan data-pptx-inline-formula="y = 2x^3 - 9x^2 + 12x - 3">y = 2x³ - 9x² + 12x - 3</tspan></text>
+
+    <g transform="translate(85, 255)">
+      <text x="0" y="35" fill="#1E40AF" font-size="28" font-weight="800">①. Tập xác định: <tspan data-pptx-inline-formula="D = \mathbb{R}">D = ℝ</tspan></text>
+
+      <text x="0" y="85" fill="#1E40AF" font-size="28" font-weight="800">②. Đạo hàm <tspan data-pptx-inline-formula="y'">y'</tspan> và giải nghiệm:</text>
+      <text x="0" y="125" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="y' = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)">y' = 6x² - 18x + 12 = 6(x - 1)(x - 2)</tspan></text>
+      <text x="0" y="165" fill="#1E40AF" font-size="28" font-weight="800"><tspan data-pptx-inline-formula="y' = 0 \Leftrightarrow x = 1">y' = 0 ⇔ x = 1</tspan> hoặc <tspan data-pptx-inline-formula="x = 2">x = 2</tspan></text>
+
+      <line x1="0" y1="195" x2="520" y2="195" stroke="#F1F5F9" stroke-width="2"/>
+
+      <text x="0" y="240" fill="#047857" font-size="28" font-weight="800">④. Kết luận cực trị từ BBT:</text>
+      <text x="0" y="280" fill="#047857" font-size="28" font-weight="700">• Điểm Cực đại: <tspan data-pptx-inline-formula="x = 1 \Rightarrow y_{CĐ} = 2">x = 1 ⇒ y_{CĐ} = 2</tspan></text>
+      <text x="0" y="320" fill="#DC2626" font-size="28" font-weight="700">• Điểm Cực tiểu: <tspan data-pptx-inline-formula="x = 2 \Rightarrow y_{CT} = 1">x = 2 ⇒ y_{CT} = 1</tspan></text>
+    </g>
+
+    <!-- Cot phai: TikZ 07 BBT VD6 -->
+    <rect x="670" y="125" width="560" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="950" y="170" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">BẢNG BIẾN THIÊN (VÍ DỤ 6)</text>
+    <image href="../images/tikz_07_bbt_vd6.png" x="690" y="210" width="520" height="300" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="690" y="530" width="520" height="110" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="710" y="575" fill="#1E40AF" font-size="28" font-weight="700">Điểm CĐ đồ thị: A(1; 2)</text>
+    <text x="710" y="615" fill="#1E40AF" font-size="28" font-weight="700">Điểm CT đồ thị: B(2; 1)</text>
+  </g>
+
+</svg>

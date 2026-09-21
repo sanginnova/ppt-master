@@ -1,0 +1,1 @@
+Tình huống mở đầu: Bài toán chuyển động của chất điểm trên trục số. Để trả lời chất điểm sang phải hay sang trái, ta cần công cụ khảo sát tính đơn điệu của hàm số.
