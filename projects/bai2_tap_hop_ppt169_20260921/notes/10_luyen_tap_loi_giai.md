@@ -1,0 +1,1 @@
+Các em cùng đối chiếu kết quả: giao là (1; 3), hợp là [-2; 5], hiệu A bỏ B là [-2; 1], và phần bù là hai khoảng vô cực.

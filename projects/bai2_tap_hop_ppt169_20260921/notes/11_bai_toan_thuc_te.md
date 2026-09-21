@@ -1,0 +1,1 @@
+Bài toán thể thao 24 bạn: dùng công thức n(A hợp B) = n(A) + n(B) - n(A giao B), ta tính được ngay có 3 bạn thi cả hai môn.

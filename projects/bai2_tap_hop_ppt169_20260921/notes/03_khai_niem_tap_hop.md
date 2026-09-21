@@ -1,0 +1,1 @@
+Các em lưu ý hai cách mô tả tập hợp: liệt kê phần tử khi hữu hạn, và nêu tính chất đặc trưng khi tập hợp có vô số phần tử.

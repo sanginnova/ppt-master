@@ -1,0 +1,1 @@
+Phép giao lấy phần chung, phép hợp gộp tất cả. Biểu đồ Ven thể hiện rất rõ vùng giao nhau và vùng hợp.

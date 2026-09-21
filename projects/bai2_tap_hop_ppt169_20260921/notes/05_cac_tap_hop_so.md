@@ -1,0 +1,1 @@
+Chuỗi bao hàm số tự nhiên N nằm trong số nguyên Z, nằm trong số hữu tỉ Q và nằm trong số thực R. R gồm hữu tỉ và vô tỉ.

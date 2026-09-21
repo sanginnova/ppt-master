@@ -1,0 +1,1 @@
+Thầy dành cho cả lớp 5 phút để tự vẽ trục số và giải 4 câu a, b, c, d vào vở trước khi thầy chữa chi tiết.

@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  % Outer Set B
+  \draw[fill=blue!8, draw=blue!80!black, very thick] (0,0) ellipse (4.2cm and 2.8cm);
+  \node[blue!80!black, font=\bfseries\Large] at (2.4, 1.8) {Tập hợp $B$};
+
+  % Inner Set A
+  \draw[fill=blue!22, draw=blue!90!black, very thick] (-0.8,-0.2) ellipse (2.2cm and 1.5cm);
+  \node[blue!90!black, font=\bfseries\Large] at (-0.8, 0.4) {Tập hợp $A$};
+  \node[blue!90!black, font=\bfseries] at (-0.8, -0.2) {$A \subset B$};
+
+  % Elements inside A
+  \fill[blue!90!black] (-1.8, -0.5) circle (2.5pt) node[below=2pt] {$x_1$};
+  \fill[blue!90!black] (-0.2, -0.7) circle (2.5pt) node[below=2pt] {$x_2$};
+
+  % Elements in B but not A
+  \fill[gray!80!black] (1.8, -0.5) circle (2.5pt) node[below=2pt] {$y_1$};
+  \fill[gray!80!black] (1.2, 0.8) circle (2.5pt) node[above=2pt] {$y_2$};
+  \node[gray!70!black, font=\small] at (2.0, -1.5) {$y \in B, y \notin A$};
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,1 @@
+Về nhà các em hoàn thành bài tập 1.8 đến 1.16 trong SGK trang 19 và chuẩn bị bài mới. Chúc các em học tập tốt!

@@ -1,0 +1,1 @@
+Về tập con: mọi phần tử của A đều phải thuộc B. Biểu đồ Ven giúp ta nhìn trực quan hình phẳng A nằm trọn trong B.

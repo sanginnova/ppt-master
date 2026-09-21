@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    
+    <!-- Title -->
+    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">5. PHÉP TOÁN TẬP HỢP: GIAO VÀ HỢP</text>
+  </g>
+  <g id="content">
+    <!-- Hàng trên: 2 card lý thuyết song song -->
+    <rect x="50" y="120" width="570" height="190" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="165" fill="#1D4ED8" font-size="30" font-weight="800">A. PHÉP GIAO (<tspan data-pptx-inline-formula="A \cap B">A ∩ B</tspan>)</text>
+    <text x="85" y="210" fill="#0F172A" font-size="28" font-weight="700">Lấy các phần tử CHUNG của hai tập:</text>
+    <text x="85" y="255" fill="#1E40AF" font-size="28" font-weight="800"><tspan data-pptx-inline-formula="A \cap B = \{x \mid x \in A \land x \in B\}">A ∩ B = {x | x ∈ A VÀ x ∈ B}</tspan></text>
+    <text x="85" y="295" fill="#166534" font-size="28" font-weight="700">VD: {1; 2; 3} ∩ {2; 3; 4} = {2; 3}</text>
+
+    <rect x="660" y="120" width="570" height="190" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="695" y="165" fill="#047857" font-size="30" font-weight="800">B. PHÉP HỢP (<tspan data-pptx-inline-formula="A \cup B">A ∪ B</tspan>)</text>
+    <text x="695" y="210" fill="#0F172A" font-size="28" font-weight="700">GỘP TẤT CẢ phần tử của hai tập:</text>
+    <text x="695" y="255" fill="#047857" font-size="28" font-weight="800"><tspan data-pptx-inline-formula="A \cup B = \{x \mid x \in A \lor x \in B\}">A ∪ B = {x | x ∈ A HOẶC x ∈ B}</tspan></text>
+    <text x="695" y="295" fill="#166534" font-size="28" font-weight="700">VD: {1; 2} ∪ {2; 3; 4} = {1; 2; 3; 4}</text>
+
+    <!-- Hàng dưới: TikZ Diagram 04 Biểu đồ Ven Giao & Hợp -->
+    <rect x="50" y="325" width="1180" height="345" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="640" y="365" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">BIỂU ĐỒ VEN MINH HỌA GIAO VÀ HỢP</text>
+    <image href="../images/tikz_04_venn_giao_hop.png" x="80" y="380" width="1120" height="275" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+</svg>

@@ -1,0 +1,43 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  % Universe R Box
+  \draw[rounded corners=12pt, fill=slate!6, draw=slate!80!black, very thick] (-5.5,-3.8) rectangle (5.5,3.8);
+  \node[font=\bfseries\huge, text=slate!90!black] at (4.5, 3.1) {$\mathbb{R}$};
+  \node[font=\small, text=slate!70!black] at (3.2, 3.1) {Tập số thực};
+
+  % Irrational numbers I
+  \draw[rounded corners=10pt, fill=red!10, draw=red!70!black, thick] (2.2,-3.2) rectangle (5.0, 2.2);
+  \node[font=\bfseries\large, text=red!80!black] at (3.6, 1.6) {Số vô tỉ $\mathbb{I}$};
+  \node[font=\normalsize, text=red!90!black] at (3.6, 0.7) {$\sqrt{2}, \sqrt{3}$};
+  \node[font=\normalsize, text=red!90!black] at (3.6, -0.1) {$\pi \approx 3{,}14$};
+  \node[font=\normalsize, text=red!90!black] at (3.6, -0.9) {$e \approx 2{,}718$};
+  \node[font=\footnotesize, text=red!70!black, align=center] at (3.6, -2.1) {Thập phân\\vô hạn\\không tuần hoàn};
+
+  % Rational numbers Q
+  \draw[fill=green!10, draw=green!60!black, very thick] (-1.5,-0.3) ellipse (3.4cm and 2.9cm);
+  \node[font=\bfseries\Large, text=green!60!black] at (0.9, 1.8) {$\mathbb{Q}$};
+  \node[font=\footnotesize, text=green!70!black] at (-0.3, 2.0) {$\frac{3}{4}, -0{,}5$};
+
+  % Integer numbers Z
+  \draw[fill=blue!10, draw=blue!70!black, very thick] (-1.8,-0.5) ellipse (2.4cm and 2.0cm);
+  \node[font=\bfseries\Large, text=blue!70!black] at (-0.1, 0.7) {$\mathbb{Z}$};
+  \node[font=\footnotesize, text=blue!80!black] at (-0.1, -0.1) {$-1, -5$};
+
+  % Natural numbers N
+  \draw[fill=blue!25, draw=blue!90!black, very thick] (-2.2,-0.7) ellipse (1.4cm and 1.2cm);
+  \node[font=\bfseries\Large, text=blue!90!black] at (-2.2, -0.4) {$\mathbb{N}$};
+  \node[font=\footnotesize, text=blue!90!black] at (-2.2, -1.1) {$0, 1, 2, 3\dots$};
+
+\end{tikzpicture}
+\end{document}

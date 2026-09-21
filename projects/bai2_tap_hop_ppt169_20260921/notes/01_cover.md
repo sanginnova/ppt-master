@@ -1,0 +1,1 @@
+Chào các em học sinh! Hôm nay chúng ta cùng bước vào Bài 2: Tập hợp và các phép toán trên tập hợp thuộc Chương 1 môn Toán lớp 10.

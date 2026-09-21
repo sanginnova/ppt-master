@@ -1,0 +1,51 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  % Phép Giao (bên trái)
+  \begin{scope}[shift={(-4.2,0)}]
+    \node[font=\bfseries\Large, text=blue!80!black] at (0, 2.6) {GIAO: $A \cap B$};
+    
+    % Clip for intersection
+    \begin{scope}
+      \clip (-1.1,0) circle (1.8cm);
+      \fill[blue!45] (1.1,0) circle (1.8cm);
+    \end{scope}
+
+    \draw[thick, draw=blue!80!black] (-1.1,0) circle (1.8cm);
+    \draw[thick, draw=blue!80!black] (1.1,0) circle (1.8cm);
+
+    \node[font=\bfseries\huge, text=blue!90!black] at (-2.0, 0) {$A$};
+    \node[font=\bfseries\huge, text=blue!90!black] at (2.0, 0) {$B$};
+    \node[font=\bfseries\large, text=blue!90!black] at (0, 0) {$A \cap B$};
+    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Phần tử thuộc cả\\$A$ \textbf{VÀ} $B$};
+  \end{scope}
+
+  % Phép Hợp (bên phải)
+  \begin{scope}[shift={(4.2,0)}]
+    \node[font=\bfseries\Large, text=green!60!black] at (0, 2.6) {HỢP: $A \cup B$};
+
+    % Union fill
+    \fill[green!25] (-1.1,0) circle (1.8cm);
+    \fill[green!25] (1.1,0) circle (1.8cm);
+
+    \draw[thick, draw=green!60!black] (-1.1,0) circle (1.8cm);
+    \draw[thick, draw=green!60!black] (1.1,0) circle (1.8cm);
+
+    \node[font=\bfseries\huge, text=green!70!black] at (-2.0, 0) {$A$};
+    \node[font=\bfseries\huge, text=green!70!black] at (2.0, 0) {$B$};
+    \node[font=\bfseries\large, text=green!80!black] at (0, 0) {$A \cup B$};
+    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Gộp tất cả phần tử\\thuộc $A$ \textbf{HOẶC} $B$};
+  \end{scope}
+
+\end{tikzpicture}
+\end{document}

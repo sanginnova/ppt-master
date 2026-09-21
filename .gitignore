@@ -184,6 +184,11 @@ PERSONAL_NOTES.md
 # Use cloud sync (iCloud/Dropbox) for backup and multi-device access
 projects/*
 !projects/README.md
+!projects/bai2_tap_hop_ppt169_20260921/
+projects/bai2_tap_hop_ppt169_20260921/backup/
+*.aux
+*.log
+*.synctex.gz
 
 # Derived template review exports (local review only; never template input)
 skills/ppt-master/templates/brands/*/exports/

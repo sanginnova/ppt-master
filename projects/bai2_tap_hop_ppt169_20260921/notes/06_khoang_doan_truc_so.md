@@ -1,0 +1,1 @@
+Trục số là kỹ năng cực kỳ quan trọng: mút lấy thì dùng ngoặc vuông, mút không lấy thì dùng ngoặc tròn, phần ngoài phải gạch chéo.

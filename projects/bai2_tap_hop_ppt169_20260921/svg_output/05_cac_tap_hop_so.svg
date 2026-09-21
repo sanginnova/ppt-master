@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    
+    <!-- Title -->
+    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">3. CÁC TẬP HỢP SỐ VÀ CHUỖI BAO HÀM</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="120" width="1180" height="70" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="640" y="167" fill="#1D4ED8" font-size="34" font-weight="800" text-anchor="middle"><tspan data-pptx-inline-formula="\mathbb{N}^* \subset \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}">ℕ* ⊂ ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ</tspan></text>
+
+    <!-- Cột trái: Định nghĩa các tập số -->
+    <rect x="50" y="205" width="600" height="465" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <g transform="translate(80, 230)">
+      <text x="0" y="35" fill="#1E40AF" font-size="28" font-weight="800">1. Số tự nhiên <tspan data-pptx-inline-formula="\mathbb{N}">ℕ</tspan>:</text>
+      <text x="0" y="75" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="\mathbb{N} = \{0; 1; 2; \dots\}">ℕ = {0; 1; 2; ...}</tspan> | <tspan data-pptx-inline-formula="\mathbb{N}^* = \{1; 2; \dots\}">ℕ* = {1; 2; ...}</tspan></text>
+
+      <line x1="0" y1="105" x2="540" y2="105" stroke="#F1F5F9" stroke-width="2"/>
+
+      <text x="0" y="145" fill="#1E40AF" font-size="28" font-weight="800">2. Số nguyên <tspan data-pptx-inline-formula="\mathbb{Z}">ℤ</tspan>:</text>
+      <text x="0" y="185" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="\mathbb{Z} = \{\dots; -2; -1; 0; 1; 2; \dots\}">ℤ = {...; -2; -1; 0; 1; 2; ...}</tspan></text>
+
+      <line x1="0" y1="215" x2="540" y2="215" stroke="#F1F5F9" stroke-width="2"/>
+
+      <text x="0" y="255" fill="#1E40AF" font-size="28" font-weight="800">3. Số hữu tỉ <tspan data-pptx-inline-formula="\mathbb{Q}">ℚ</tspan>:</text>
+      <text x="0" y="295" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="\mathbb{Q} = \{\frac{a}{b} \mid a, b \in \mathbb{Z}, b \neq 0\}">ℚ = {a/b | a,b ∈ ℤ, b ≠ 0}</tspan></text>
+
+      <line x1="0" y1="325" x2="540" y2="325" stroke="#F1F5F9" stroke-width="2"/>
+
+      <text x="0" y="365" fill="#047857" font-size="28" font-weight="800">4. Số thực <tspan data-pptx-inline-formula="\mathbb{R}">ℝ</tspan>:</text>
+      <text x="0" y="405" fill="#047857" font-size="28" font-weight="700"><tspan data-pptx-inline-formula="\mathbb{R}">ℝ</tspan> gồm số hữu tỉ <tspan data-pptx-inline-formula="\mathbb{Q}">ℚ</tspan> và số vô tỉ <tspan data-pptx-inline-formula="\mathbb{I}">𝕀</tspan></text>
+    </g>
+
+    <!-- Cột phải: TikZ Diagram 02 Sơ đồ bao hàm -->
+    <rect x="670" y="205" width="560" height="465" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="950" y="245" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">SƠ ĐỒ CÁC TẬP HỢP SỐ</text>
+    <image href="../images/tikz_02_nested_number_sets.png" x="685" y="260" width="530" height="385" preserveAspectRatio="xMidYMid meet"/>
+    <text x="950" y="660" fill="#64748B" font-size="28" font-weight="600" text-anchor="middle"><tspan data-pptx-inline-formula="\mathbb{R} = \mathbb{Q} \cup \mathbb{I}">ℝ = ℚ ∪ 𝕀</tspan> (Vô tỉ: <tspan data-pptx-inline-formula="\sqrt{2}, \pi, e">√2, π, e</tspan>)</text>
+  </g>
+
+</svg>

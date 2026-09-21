@@ -1,0 +1,1 @@
+Hiệu A bỏ B là lấy các phần tử thuộc A nhưng không thuộc B. Khi A là con của E, hiệu E bỏ A chính là phần bù.
