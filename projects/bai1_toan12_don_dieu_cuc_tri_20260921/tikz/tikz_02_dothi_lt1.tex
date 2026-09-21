@@ -4,15 +4,12 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
-\usepackage{tkz-tab}
-\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
-
-\definecolor{slate}{RGB}{100,116,139}
+\usetikzlibrary{calc,arrows.meta}
 
 \begin{document}
 
-\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=1.0,font=\large]
-  \node[font=\bfseries\Large, text=blue!80!black] at (0, 3.6) {ĐỒ THỊ LUYỆN TẬP 1 (HÌNH 1.5 SGK)};
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=1.05,font=\large]
+  \node[font=\bfseries\Large, text=blue!80!black] at (0, 3.6) {ĐỒ THỊ HÀM SỐ (HÌNH 1.5 SGK)};
   \draw[->, thick] (-3,0) -- (3.5,0) node[below] {$x$};
   \draw[->, thick] (0,-2.5) -- (0,3.2) node[left] {$y$};
   \node[below left] at (0,0) {$O$};
@@ -20,14 +17,11 @@
   % Do thi y = x^3 - 3x
   \draw[very thick, purple!80!black, smooth, domain=-2.1:2.1] plot (\x, {0.8*((\x)^3 - 3*(\x))});
 
+  % Cac diem toa do dau bai cho san
   \draw[dashed, gray] (-1,0) node[below=2pt, text=black] {$-1$} -- (-1, 1.6) -- (0, 1.6) node[left=2pt, text=black] {$2$};
   \draw[dashed, gray] (1,0) node[above=2pt, text=black] {$1$} -- (1, -1.6) -- (0, -1.6) node[right=2pt, text=black] {$-2$};
   \fill[purple!90!black] (-1, 1.6) circle (2.5pt);
   \fill[purple!90!black] (1, -1.6) circle (2.5pt);
-
-  \node[font=\bfseries, text=blue!80!black] at (-2.2, 2.5) {Đồng biến};
-  \node[font=\bfseries, text=red!80!black] at (0, 0.5) {Nghịch biến};
-  \node[font=\bfseries, text=blue!80!black] at (2.2, -2.2) {Đồng biến};
 \end{tikzpicture}
 
 \end{document}

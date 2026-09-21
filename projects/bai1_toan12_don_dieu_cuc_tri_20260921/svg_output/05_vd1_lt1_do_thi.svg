@@ -9,11 +9,11 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VD1 &amp; LT1</text>
+    <rect x="75" y="38" width="272" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="211" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VD1 &amp; LT1</text>
     
     <!-- Title -->
-    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">I. TÍNH ĐƠN ĐIỆU: Ví dụ 1 &amp; Luyện tập 1</text>
+    <text x="367" y="73" fill="#0F172A" font-size="28" font-weight="800">I. TÍNH ĐƠN ĐIỆU: Ví dụ 1 &amp; Luyện tập 1</text>
   </g>
   <g id="content">
     <!-- Cot trai: VD1 va LT1 de bai & loi giai -->

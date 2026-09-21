@@ -9,11 +9,11 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VẬN DỤNG 1</text>
+    <rect x="75" y="38" width="215" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="182" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VẬN DỤNG 1</text>
     
     <!-- Title -->
-    <text x="230" y="73" fill="#0F172A" font-size="29" font-weight="800">I. TÍNH ĐƠN ĐIỆU: Vận dụng 1 — Chuyển động</text>
+    <text x="310" y="73" fill="#0F172A" font-size="28" font-weight="800">I. TÍNH ĐƠN ĐIỆU: Vận dụng 1 — Chuyển động</text>
   </g>
   <g id="content">
     <rect x="50" y="125" width="1180" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
