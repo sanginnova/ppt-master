@@ -1,0 +1,1 @@
+Hướng dẫn giải chi tiết bài 1.15: Lưu ý điểm 1 không thuộc B nên 1 thuộc hiệu A trừ B, chuyển thành ngoặc vuông.

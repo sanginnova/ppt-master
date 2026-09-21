@@ -9,11 +9,11 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">LỜI GIẢI</text>
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">LỜI GIẢI</text>
     
     <!-- Title -->
-    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">HƯỚNG DẪN GIẢI BÀI TẬP VẬN DỤNG</text>
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">HƯỚNG DẪN GIẢI CHI TIẾT BÀI 1.15 TRÊN TRỤC SỐ</text>
   </g>
   <g id="solution-content">
     <!-- Cột trái: Kết quả chi tiết -->
@@ -39,10 +39,10 @@
       <text x="20" y="465" fill="#DC2626" font-size="28" font-weight="800">⚠️ LƯU Ý: 1 ∉ B nên 1 ∈ A \ B</text>
     </g>
 
-    <!-- Cột phải: TikZ Diagram 06 Trục số 4 phép toán -->
+    <!-- Cột phải: TikZ 07 Trục số 4 phép toán -->
     <rect x="630" y="125" width="600" height="545" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
     <text x="930" y="170" fill="#047857" font-size="30" font-weight="800" text-anchor="middle">BIỂU DIỄN 4 PHÉP TOÁN TRÊN TRỤC SỐ</text>
-    <image href="../images/tikz_06_truc_so_luyen_tap.png" x="650" y="188" width="560" height="460" preserveAspectRatio="xMidYMid meet"/>
+    <image href="../images/tikz_07_truc_so_luyen_tap.png" x="650" y="188" width="560" height="460" preserveAspectRatio="xMidYMid meet"/>
     <text x="930" y="660" fill="#64748B" font-size="28" font-weight="600" text-anchor="middle">Đổi ngoặc tròn thành vuông khi lấy hiệu và bù</text>
   </g>
 

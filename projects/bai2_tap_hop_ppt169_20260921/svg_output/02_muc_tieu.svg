@@ -9,11 +9,11 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC TIÊU</text>
     
     <!-- Title -->
-    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">MỤC TIÊU BÀI HỌC CẦN ĐẠT</text>
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">MỤC TIÊU BÀI HỌC CẦN ĐẠT</text>
   </g>
   <g id="body-grid">
     <rect x="50" y="125" width="1180" height="160" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>

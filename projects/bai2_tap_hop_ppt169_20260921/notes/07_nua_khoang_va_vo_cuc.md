@@ -1,0 +1,1 @@
+Mục 2.b Phần 2: Nửa khoảng và Khoảng vô cực. Ghi nhớ quy tắc sư phạm: lấy mút dùng ngoặc vuông, bỏ mút dùng ngoặc tròn, gạch chéo phần ngoài.

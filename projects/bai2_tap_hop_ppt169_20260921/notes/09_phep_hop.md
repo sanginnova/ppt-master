@@ -1,0 +1,1 @@
+Mục 3.b: Phép hợp gộp tất cả phần tử thuộc A HOẶC B. Không lặp lại phần tử giống nhau.

@@ -9,23 +9,23 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC 1.a</text>
     
     <!-- Title -->
-    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">1. KHÁI NIỆM TẬP HỢP VÀ PHẦN TỬ</text>
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">1. CÁC KHÁI NIỆM CƠ BẢN: a. Tập hợp và phần tử</text>
   </g>
   <g id="content">
     <rect x="50" y="125" width="1180" height="150" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">A. KHÁI NIỆM CƠ BẢN</text>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">A. KHÁI NIỆM CƠ BẢN VÀ KÝ HIỆU</text>
     <text x="85" y="220" fill="#0F172A" font-size="28" font-weight="600">• Tập hợp là một khái niệm nguyên thủy của toán học.</text>
-    <text x="85" y="258" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="a \in A">a ∈ A</tspan>: phần tử a thuộc tập A  |  <tspan data-pptx-inline-formula="b \notin A">b ∉ A</tspan>: phần tử b không thuộc A.</text>
+    <text x="85" y="258" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="a \in A">a ∈ A</tspan>: a thuộc tập hợp A  |  <tspan data-pptx-inline-formula="b \notin A">b ∉ A</tspan>: b không thuộc tập hợp A.</text>
 
     <rect x="50" y="300" width="1180" height="85" rx="14" fill="#FEF3C7" stroke="#FDE68A" stroke-width="2"/>
     <text x="85" y="352" fill="#92400E" font-size="28" font-weight="800">TẬP RỖNG: Ký hiệu là <tspan data-pptx-inline-formula="\emptyset">\emptyset</tspan>, là tập hợp không chứa bất kì phần tử nào.</text>
 
     <rect x="50" y="410" width="1180" height="260" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <text x="85" y="455" fill="#1D4ED8" font-size="30" font-weight="800">B. HAI CÁCH XÁC ĐỊNH TẬP HỢP</text>
+    <text x="85" y="455" fill="#1D4ED8" font-size="30" font-weight="800">B. HAI CÁCH XÁC ĐỊNH TẬP HỢP (SGK KNTT)</text>
 
     <rect x="85" y="475" width="530" height="175" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
     <text x="110" y="520" fill="#1E40AF" font-size="28" font-weight="800">CÁCH 1: LIỆT KÊ PHẦN TỬ</text>
@@ -33,7 +33,7 @@
     <text x="110" y="610" fill="#2563EB" font-size="28" font-weight="700">VD: <tspan data-pptx-inline-formula="P = \{2; 3; 5; 7\}">P = {2; 3; 5; 7}</tspan></text>
 
     <rect x="645" y="475" width="555" height="175" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
-    <text x="670" y="520" fill="#047857" font-size="28" font-weight="800">CÁCH 2: NÊU TÍNH CHẤT ĐẶC TRƯNG</text>
+    <text x="670" y="520" fill="#047857" font-size="28" font-weight="800">CÁCH 2: CHỈ RA TÍNH CHẤT ĐẶC TRƯNG</text>
     <text x="670" y="565" fill="#0F172A" font-size="28" font-weight="600">Dạng: <tspan data-pptx-inline-formula="A = \{x \in X \mid P(x)\}">A = {x ∈ X | P(x)}</tspan></text>
     <text x="670" y="610" fill="#059669" font-size="28" font-weight="700">VD: <tspan data-pptx-inline-formula="A = \{x \in \mathbb{R} \mid x^2 - 4 = 0\}">A = {x ∈ ℝ | x² - 4 = 0}</tspan></text>
   </g>

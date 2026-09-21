@@ -1,0 +1,1 @@
+Mục 3.a: Phép giao lấy các phần tử thuộc cả A VÀ B. Biểu đồ Ven biểu thị vùng giao nhau được tô đậm.

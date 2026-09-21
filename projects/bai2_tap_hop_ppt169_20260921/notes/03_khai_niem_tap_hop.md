@@ -1,1 +1,1 @@
-Các em lưu ý hai cách mô tả tập hợp: liệt kê phần tử khi hữu hạn, và nêu tính chất đặc trưng khi tập hợp có vô số phần tử.
+Mục 1.a: Khái niệm cơ bản về tập hợp. Các em chú ý hai cách mô tả: liệt kê phần tử hoặc nêu tính chất đặc trưng, cùng khái niệm tập rỗng.

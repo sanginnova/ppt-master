@@ -1,0 +1,1 @@
+Mục 2.b Phần 1: Khoảng và Đoạn. Điểm khác biệt mấu chốt: Đoạn [a; b] lấy cả hai đầu mút (dùng ngoặc vuông), Khoảng (a; b) bỏ cả hai mút (dùng ngoặc tròn).

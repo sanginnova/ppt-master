@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  % Hieu
+  \begin{scope}[shift={(-4.2,0)}]
+    \node[font=\bfseries\Large, text=blue!80!black] at (0, 2.6) {HIỆU: $A \setminus B$};
+    \begin{scope}
+      \fill[blue!35] (-1.1,0) circle (1.8cm);
+      \clip (1.1,0) circle (1.8cm);
+      \fill[white] (-1.1,0) circle (1.8cm);
+    \end{scope}
+    \draw[very thick, draw=blue!80!black] (-1.1,0) circle (1.8cm);
+    \draw[thick, draw=gray!60!black] (1.1,0) circle (1.8cm);
+    \node[font=\bfseries\huge, text=blue!90!black] at (-1.8, 0) {$A \setminus B$};
+    \node[font=\bfseries\huge, text=gray!60!black] at (1.8, 0) {$B$};
+    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Thuộc $A$ nhưng\\không thuộc $B$};
+  \end{scope}
+
+  % Phan bu
+  \begin{scope}[shift={(4.2,0)}]
+    \node[font=\bfseries\Large, text=orange!80!black] at (0, 2.6) {PHẦN BÙ: $C_E A$ ($A \subset E$)};
+    \draw[rounded corners=8pt, fill=orange!18, draw=orange!80!black, very thick] (-2.8,-1.9) rectangle (2.8,1.9);
+    \node[font=\bfseries\huge, text=orange!90!black] at (-2.2, 1.4) {$E$};
+    \draw[fill=white, draw=blue!80!black, very thick] (0.3,-0.1) ellipse (1.6cm and 1.1cm);
+    \node[font=\bfseries\huge, text=blue!90!black] at (0.3, -0.1) {$A$};
+    \node[font=\bfseries\Large, text=orange!90!black] at (-1.3, -0.9) {$C_E A$};
+    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Phần bù: $C_E A = E \setminus A$};
+  \end{scope}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC 2.b</text>
+    
+    <!-- Title -->
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">2. CÁC TẬP HỢP SỐ: b. Các tập con của ℝ — Khoảng &amp; Đoạn</text>
+  </g>
+  <g id="content">
+    <!-- Cột trái: Định nghĩa Khoảng & Đoạn -->
+    <rect x="50" y="125" width="560" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <g transform="translate(80, 155)">
+      <!-- 1. Đoạn [a; b] -->
+      <rect x="0" y="0" width="500" height="195" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+      <text x="20" y="45" fill="#1D4ED8" font-size="30" font-weight="800">1. ĐOẠN <tspan data-pptx-inline-formula="[a; b]">[a; b]</tspan>:</text>
+      <text x="20" y="90" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="[a; b] = \{x \in \mathbb{R} \mid a \le x \le b\}">[a; b] = {x ∈ ℝ | a ≤ x ≤ b}</tspan></text>
+      <text x="20" y="130" fill="#1E40AF" font-size="28" font-weight="700">Ký hiệu mút: Dùng ngoặc vuông [ ]</text>
+      <text x="20" y="170" fill="#047857" font-size="28" font-weight="800">→ LẤY CẢ HAI ĐẦU MÚT a VÀ b</text>
+
+      <!-- 2. Khoảng (a; b) -->
+      <rect x="0" y="215" width="500" height="195" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+      <text x="20" y="260" fill="#047857" font-size="30" font-weight="800">2. KHOẢNG <tspan data-pptx-inline-formula="(a; b)">(a; b)</tspan>:</text>
+      <text x="20" y="305" fill="#0F172A" font-size="28" font-weight="600"><tspan data-pptx-inline-formula="(a; b) = \{x \in \mathbb{R} \mid a &lt; x &lt; b\}">(a; b) = {x ∈ ℝ | a &lt; x &lt; b}</tspan></text>
+      <text x="20" y="345" fill="#065F46" font-size="28" font-weight="700">Ký hiệu mút: Dùng ngoặc tròn ( )</text>
+      <text x="20" y="385" fill="#DC2626" font-size="28" font-weight="800">→ BỎ CẢ HAI ĐẦU MÚT a VÀ b</text>
+
+      <text x="20" y="465" fill="#475569" font-size="28" font-weight="600">a, b được gọi là các đầu mút của tập hợp</text>
+    </g>
+
+    <!-- Cột phải: TikZ Diagram 03A Trục số Khoảng và Đoạn -->
+    <rect x="630" y="125" width="600" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="930" y="170" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">BIỂU DIỄN TRÊN TRỤC SỐ THỰC</text>
+    <image href="../images/tikz_03a_khoang_doan.png" x="650" y="190" width="560" height="420" preserveAspectRatio="xMidYMid meet"/>
+    <text x="930" y="645" fill="#64748B" font-size="28" font-weight="600" text-anchor="middle">Quy ước SGK: Gạch chéo phần ngoài tập</text>
+  </g>
+
+</svg>

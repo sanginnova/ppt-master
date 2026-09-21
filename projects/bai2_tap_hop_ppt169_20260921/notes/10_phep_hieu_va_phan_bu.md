@@ -1,0 +1,1 @@
+Mục 3.c: Phép hiệu thuộc A nhưng không thuộc B. Khi A là tập con của E, hiệu E trừ A được gọi là phần bù của A trong E.

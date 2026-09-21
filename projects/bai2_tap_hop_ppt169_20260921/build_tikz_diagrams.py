@@ -11,7 +11,6 @@ os.makedirs(tikz_dir, exist_ok=True)
 os.makedirs(slide_bai_giang_tikz, exist_ok=True)
 os.makedirs(img_out_dir, exist_ok=True)
 
-# Standard template per ve-hinh-tikz skill
 def make_tikz_doc(body):
     return r'''\documentclass[tikz,border=5mm]{standalone}
 \usepackage[utf8]{vietnam}
@@ -82,141 +81,156 @@ tikz_02 = make_tikz_doc(r'''
   \node[font=\footnotesize, text=blue!90!black] at (-2.2, -1.1) {$0, 1, 2, 3\dots$};
 ''')
 
-# 3. Number Lines - Subsets of R
-tikz_03 = make_tikz_doc(r'''
-  [every node/.style={font=\normalsize}]
+# 3A. Number Lines: Khoảng và Đoạn
+tikz_03a = make_tikz_doc(r'''
+  [every node/.style={font=\large}]
   % 1. Đoạn [a; b]
-  \node[anchor=west, font=\bfseries\large, text=blue!80!black] at (-5, 3.8) {1. Đoạn $[a; b] = \{x \in \mathbb{R} \mid a \le x \le b\}$};
-  \draw[->, thick] (-5, 2.8) -- (5.5, 2.8) node[right] {$x$};
+  \node[anchor=west, font=\bfseries\Large, text=blue!80!black] at (-5.2, 2.2) {Đoạn $[a; b] = \{x \in \mathbb{R} \mid a \le x \le b\}$};
+  \draw[->, thick] (-5.2, 1.2) -- (5.5, 1.2) node[right] {$x$};
   % Hatch left
-  \foreach \x in {-4.8,-4.4,...,-1.2}
-    \draw[gray!60, line width=0.8pt] (\x, 2.5) -- (\x+0.3, 3.1);
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, 0.8) -- (\x+0.35, 1.6);
   % Active interval [a; b]
-  \draw[line width=3.5pt, blue!80!black] (-1, 2.8) -- (3, 2.8);
-  \node[font=\Huge\bfseries, text=blue!80!black] at (-1, 2.8) {$[$};
-  \node[below=4pt, text=black, font=\bfseries] at (-1, 2.8) {$a$};
-  \node[font=\Huge\bfseries, text=blue!80!black] at (3, 2.8) {$]$};
-  \node[below=4pt, text=black, font=\bfseries] at (3, 2.8) {$b$};
+  \draw[line width=4pt, blue!80!black] (-1, 1.2) -- (3, 1.2);
+  \node[font=\Huge\bfseries, text=blue!80!black] at (-1, 1.2) {$[$};
+  \node[below=6pt, text=black, font=\bfseries\Large] at (-1, 1.2) {$a$};
+  \node[font=\Huge\bfseries, text=blue!80!black] at (3, 1.2) {$]$};
+  \node[below=6pt, text=black, font=\bfseries\Large] at (3, 1.2) {$b$};
   % Hatch right
   \foreach \x in {3.1,3.5,...,5.0}
-    \draw[gray!60, line width=0.8pt] (\x, 2.5) -- (\x+0.3, 3.1);
+    \draw[gray!60, line width=0.8pt] (\x, 0.8) -- (\x+0.35, 1.6);
 
   % 2. Khoảng (a; b)
-  \node[anchor=west, font=\bfseries\large, text=green!60!black] at (-5, 1.6) {2. Khoảng $(a; b) = \{x \in \mathbb{R} \mid a < x < b\}$};
-  \draw[->, thick] (-5, 0.6) -- (5.5, 0.6) node[right] {$x$};
-  \foreach \x in {-4.8,-4.4,...,-1.2}
-    \draw[gray!60, line width=0.8pt] (\x, 0.3) -- (\x+0.3, 0.9);
-  \draw[line width=3.5pt, green!60!black] (-1, 0.6) -- (3, 0.6);
-  \node[font=\Huge\bfseries, text=green!60!black] at (-1, 0.6) {$($};
-  \node[below=4pt, text=black, font=\bfseries] at (-1, 0.6) {$a$};
-  \node[font=\Huge\bfseries, text=green!60!black] at (3, 0.6) {$)$};
-  \node[below=4pt, text=black, font=\bfseries] at (3, 0.6) {$b$};
+  \node[anchor=west, font=\bfseries\Large, text=green!60!black] at (-5.2, -1.0) {Khoảng $(a; b) = \{x \in \mathbb{R} \mid a < x < b\}$};
+  \draw[->, thick] (-5.2, -2.0) -- (5.5, -2.0) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, -2.4) -- (\x+0.35, -1.6);
+  \draw[line width=4pt, green!60!black] (-1, -2.0) -- (3, -2.0);
+  \node[font=\Huge\bfseries, text=green!60!black] at (-1, -2.0) {$($};
+  \node[below=6pt, text=black, font=\bfseries\Large] at (-1, -2.0) {$a$};
+  \node[font=\Huge\bfseries, text=green!60!black] at (3, -2.0) {$)$};
+  \node[below=6pt, text=black, font=\bfseries\Large] at (3, -2.0) {$b$};
   \foreach \x in {3.1,3.5,...,5.0}
-    \draw[gray!60, line width=0.8pt] (\x, 0.3) -- (\x+0.3, 0.9);
-
-  % 3. Nửa khoảng [a; b)
-  \node[anchor=west, font=\bfseries\large, text=orange!80!black] at (-5, -0.6) {3. Nửa khoảng $[a; b) = \{x \in \mathbb{R} \mid a \le x < b\}$};
-  \draw[->, thick] (-5, -1.6) -- (5.5, -1.6) node[right] {$x$};
-  \foreach \x in {-4.8,-4.4,...,-1.2}
-    \draw[gray!60, line width=0.8pt] (\x, -1.9) -- (\x+0.3, -1.3);
-  \draw[line width=3.5pt, orange!80!black] (-1, -1.6) -- (3, -1.6);
-  \node[font=\Huge\bfseries, text=orange!80!black] at (-1, -1.6) {$[$};
-  \node[below=4pt, text=black, font=\bfseries] at (-1, -1.6) {$a$};
-  \node[font=\Huge\bfseries, text=orange!80!black] at (3, -1.6) {$)$};
-  \node[below=4pt, text=black, font=\bfseries] at (3, -1.6) {$b$};
-  \foreach \x in {3.1,3.5,...,5.0}
-    \draw[gray!60, line width=0.8pt] (\x, -1.9) -- (\x+0.3, -1.3);
-
-  % 4. Khoảng vô cực (a; +infinity)
-  \node[anchor=west, font=\bfseries\large, text=purple!80!black] at (-5, -2.8) {4. Khoảng vô cực $(a; +\infty) = \{x \in \mathbb{R} \mid x > a\}$};
-  \draw[->, thick] (-5, -3.8) -- (5.5, -3.8) node[right] {$x$};
-  \foreach \x in {-4.8,-4.4,...,-1.2}
-    \draw[gray!60, line width=0.8pt] (\x, -4.1) -- (\x+0.3, -3.5);
-  \draw[line width=3.5pt, purple!80!black] (-1, -3.8) -- (5.3, -3.8);
-  \node[font=\Huge\bfseries, text=purple!80!black] at (-1, -3.8) {$($};
-  \node[below=4pt, text=black, font=\bfseries] at (-1, -3.8) {$a$};
-  \node[below=4pt, text=purple!80!black, font=\bfseries] at (4.8, -3.8) {$+\infty$};
+    \draw[gray!60, line width=0.8pt] (\x, -2.4) -- (\x+0.35, -1.6);
 ''')
 
-# 4. Venn Giao và Hợp
-tikz_04 = make_tikz_doc(r'''
-  % Phép Giao (bên trái)
-  \begin{scope}[shift={(-4.2,0)}]
-    \node[font=\bfseries\Large, text=blue!80!black] at (0, 2.6) {GIAO: $A \cap B$};
-    
-    % Clip for intersection
-    \begin{scope}
-      \clip (-1.1,0) circle (1.8cm);
-      \fill[blue!45] (1.1,0) circle (1.8cm);
-    \end{scope}
+# 3B. Number Lines: Nửa khoảng và Khoảng vô cực
+tikz_03b = make_tikz_doc(r'''
+  [every node/.style={font=\normalsize}]
+  % 1. Nửa khoảng [a; b)
+  \node[anchor=west, font=\bfseries\large, text=orange!80!black] at (-5.2, 3.2) {Nửa khoảng $[a; b) = \{x \in \mathbb{R} \mid a \le x < b\}$};
+  \draw[->, thick] (-5.2, 2.3) -- (5.5, 2.3) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, 2.0) -- (\x+0.3, 2.6);
+  \draw[line width=3.5pt, orange!80!black] (-1, 2.3) -- (3, 2.3);
+  \node[font=\Huge\bfseries, text=orange!80!black] at (-1, 2.3) {$[$};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, 2.3) {$a$};
+  \node[font=\Huge\bfseries, text=orange!80!black] at (3, 2.3) {$)$};
+  \node[below=4pt, text=black, font=\bfseries] at (3, 2.3) {$b$};
+  \foreach \x in {3.1,3.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, 2.0) -- (\x+0.3, 2.6);
 
-    \draw[thick, draw=blue!80!black] (-1.1,0) circle (1.8cm);
-    \draw[thick, draw=blue!80!black] (1.1,0) circle (1.8cm);
+  % 2. Nửa khoảng (a; b]
+  \node[anchor=west, font=\bfseries\large, text=blue!80!black] at (-5.2, 1.1) {Nửa khoảng $(a; b] = \{x \in \mathbb{R} \mid a < x \le b\}$};
+  \draw[->, thick] (-5.2, 0.2) -- (5.5, 0.2) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, -0.1) -- (\x+0.3, 0.5);
+  \draw[line width=3.5pt, blue!80!black] (-1, 0.2) -- (3, 0.2);
+  \node[font=\Huge\bfseries, text=blue!80!black] at (-1, 0.2) {$($};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, 0.2) {$a$};
+  \node[font=\Huge\bfseries, text=blue!80!black] at (3, 0.2) {$]$};
+  \node[below=4pt, text=black, font=\bfseries] at (3, 0.2) {$b$};
+  \foreach \x in {3.1,3.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, -0.1) -- (\x+0.3, 0.5);
 
-    \node[font=\bfseries\huge, text=blue!90!black] at (-2.0, 0) {$A$};
-    \node[font=\bfseries\huge, text=blue!90!black] at (2.0, 0) {$B$};
-    \node[font=\bfseries\large, text=blue!90!black] at (0, 0) {$A \cap B$};
-    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Phần tử thuộc cả\\$A$ \textbf{VÀ} $B$};
-  \end{scope}
+  % 3. Khoảng vô cực [a; +infinity)
+  \node[anchor=west, font=\bfseries\large, text=purple!80!black] at (-5.2, -1.0) {Nửa khoảng $[a; +\infty) = \{x \in \mathbb{R} \mid x \ge a\}$};
+  \draw[->, thick] (-5.2, -1.9) -- (5.5, -1.9) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, -2.2) -- (\x+0.3, -1.6);
+  \draw[line width=3.5pt, purple!80!black] (-1, -1.9) -- (5.3, -1.9);
+  \node[font=\Huge\bfseries, text=purple!80!black] at (-1, -1.9) {$[$};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, -1.9) {$a$};
+  \node[below=4pt, text=purple!80!black, font=\bfseries] at (4.8, -1.9) {$+\infty$};
 
-  % Phép Hợp (bên phải)
-  \begin{scope}[shift={(4.2,0)}]
-    \node[font=\bfseries\Large, text=green!60!black] at (0, 2.6) {HỢP: $A \cup B$};
-
-    % Union fill
-    \fill[green!25] (-1.1,0) circle (1.8cm);
-    \fill[green!25] (1.1,0) circle (1.8cm);
-
-    \draw[thick, draw=green!60!black] (-1.1,0) circle (1.8cm);
-    \draw[thick, draw=green!60!black] (1.1,0) circle (1.8cm);
-
-    \node[font=\bfseries\huge, text=green!70!black] at (-2.0, 0) {$A$};
-    \node[font=\bfseries\huge, text=green!70!black] at (2.0, 0) {$B$};
-    \node[font=\bfseries\large, text=green!80!black] at (0, 0) {$A \cup B$};
-    \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Gộp tất cả phần tử\\thuộc $A$ \textbf{HOẶC} $B$};
-  \end{scope}
+  % 4. Khoảng vô cực (-infinity; b)
+  \node[anchor=west, font=\bfseries\large, text=red!80!black] at (-5.2, -3.1) {Khoảng vô cực $(-\infty; b) = \{x \in \mathbb{R} \mid x < b\}$};
+  \draw[->, thick] (-5.2, -4.0) -- (5.5, -4.0) node[right] {$x$};
+  \draw[line width=3.5pt, red!80!black] (-5.0, -4.0) -- (2, -4.0);
+  \node[below=4pt, text=red!80!black, font=\bfseries] at (-4.5, -4.0) {$-\infty$};
+  \node[font=\Huge\bfseries, text=red!80!black] at (2, -4.0) {$)$};
+  \node[below=4pt, text=black, font=\bfseries] at (2, -4.0) {$b$};
+  \foreach \x in {2.1,2.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, -4.3) -- (\x+0.3, -3.7);
 ''')
 
-# 5. Venn Hiệu và Phần bù
-tikz_05 = make_tikz_doc(r'''
-  % Phép Hiệu (bên trái)
+# 4. Venn Giao A \cap B
+tikz_04_giao = make_tikz_doc(r'''
+  % Venn Giao
+  \node[font=\bfseries\huge, text=blue!80!black] at (0, 2.6) {GIAO: $A \cap B$};
+  
+  \begin{scope}
+    \clip (-1.2,0) circle (2.0cm);
+    \fill[blue!45] (1.2,0) circle (2.0cm);
+  \end{scope}
+
+  \draw[very thick, draw=blue!80!black] (-1.2,0) circle (2.0cm);
+  \draw[very thick, draw=blue!80!black] (1.2,0) circle (2.0cm);
+
+  \node[font=\bfseries\Huge, text=blue!90!black] at (-2.3, 0) {$A$};
+  \node[font=\bfseries\Huge, text=blue!90!black] at (2.3, 0) {$B$};
+  \node[font=\bfseries\Large, text=white] at (0, 0) {$A \cap B$};
+  \node[font=\large, text=gray!80!black] at (0, -2.6) {Gồm các phần tử thuộc cả $A$ \textbf{VÀ} $B$};
+''')
+
+# 5. Venn Hop A \cup B
+tikz_05_hop = make_tikz_doc(r'''
+  % Venn Hop
+  \node[font=\bfseries\huge, text=green!60!black] at (0, 2.6) {HỢP: $A \cup B$};
+
+  \fill[green!25] (-1.2,0) circle (2.0cm);
+  \fill[green!25] (1.2,0) circle (2.0cm);
+
+  \draw[very thick, draw=green!60!black] (-1.2,0) circle (2.0cm);
+  \draw[very thick, draw=green!60!black] (1.2,0) circle (2.0cm);
+
+  \node[font=\bfseries\Huge, text=green!70!black] at (-2.3, 0) {$A$};
+  \node[font=\bfseries\Huge, text=green!70!black] at (2.3, 0) {$B$};
+  \node[font=\bfseries\Large, text=green!80!black] at (0, 0) {$A \cup B$};
+  \node[font=\large, text=gray!80!black] at (0, -2.6) {Gộp tất cả phần tử thuộc $A$ \textbf{HOẶC} $B$};
+''')
+
+# 6. Venn Hieu va Phan bu
+tikz_06_hieu_phanbu = make_tikz_doc(r'''
+  % Hieu
   \begin{scope}[shift={(-4.2,0)}]
     \node[font=\bfseries\Large, text=blue!80!black] at (0, 2.6) {HIỆU: $A \setminus B$};
-
-    % Difference: Fill A minus B
     \begin{scope}
       \fill[blue!35] (-1.1,0) circle (1.8cm);
       \clip (1.1,0) circle (1.8cm);
       \fill[white] (-1.1,0) circle (1.8cm);
     \end{scope}
-
     \draw[very thick, draw=blue!80!black] (-1.1,0) circle (1.8cm);
     \draw[thick, draw=gray!60!black] (1.1,0) circle (1.8cm);
-
     \node[font=\bfseries\huge, text=blue!90!black] at (-1.8, 0) {$A \setminus B$};
     \node[font=\bfseries\huge, text=gray!60!black] at (1.8, 0) {$B$};
     \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Thuộc $A$ nhưng\\không thuộc $B$};
   \end{scope}
 
-  % Phép Phần Bù (bên phải)
+  % Phan bu
   \begin{scope}[shift={(4.2,0)}]
     \node[font=\bfseries\Large, text=orange!80!black] at (0, 2.6) {PHẦN BÙ: $C_E A$ ($A \subset E$)};
-
-    % Universe E
     \draw[rounded corners=8pt, fill=orange!18, draw=orange!80!black, very thick] (-2.8,-1.9) rectangle (2.8,1.9);
     \node[font=\bfseries\huge, text=orange!90!black] at (-2.2, 1.4) {$E$};
-
-    % Subset A (white inside)
     \draw[fill=white, draw=blue!80!black, very thick] (0.3,-0.1) ellipse (1.6cm and 1.1cm);
     \node[font=\bfseries\huge, text=blue!90!black] at (0.3, -0.1) {$A$};
-
     \node[font=\bfseries\Large, text=orange!90!black] at (-1.3, -0.9) {$C_E A$};
     \node[font=\normalsize, text=gray!80!black, align=center] at (0, -2.4) {Phần bù: $C_E A = E \setminus A$};
   \end{scope}
 ''')
 
-# 6. Trục số giải bài tập: A = [-2; 3) và B = (1; 5]
-tikz_06 = make_tikz_doc(r'''
+# 7. Truc so giai bai 1.15
+tikz_07_truc_so_luyen_tap = make_tikz_doc(r'''
   [every node/.style={font=\normalsize}]
   % 1. A \cap B = (1; 3)
   \node[anchor=west, font=\bfseries\large, text=blue!80!black] at (-5.5, 3.8) {a) $A \cap B = (1; 3)$};
@@ -270,8 +284,8 @@ tikz_06 = make_tikz_doc(r'''
   \node[below=4pt, text=black, font=\bfseries] at (3, -3.8) {$3$};
 ''')
 
-# 7. Venn Thể thao 24 học sinh
-tikz_07 = make_tikz_doc(r'''
+# 8. Venn The thao 24 hoc sinh
+tikz_08_the_thao = make_tikz_doc(r'''
   % Outer universe
   \draw[rounded corners=12pt, fill=slate!5, draw=slate!70!black, very thick] (-4.5,-2.8) rectangle (4.5,2.8);
   \node[font=\bfseries\Large, text=slate!80!black] at (-3.2, 2.3) {Lớp 10A ($24$ bạn)};
@@ -304,22 +318,22 @@ tikz_07 = make_tikz_doc(r'''
 items = [
     ("tikz_01_venn_subset", tikz_01),
     ("tikz_02_nested_number_sets", tikz_02),
-    ("tikz_03_number_lines_subsets", tikz_03),
-    ("tikz_04_venn_giao_hop", tikz_04),
-    ("tikz_05_venn_hieu_phanbu", tikz_05),
-    ("tikz_06_truc_so_luyen_tap", tikz_06),
-    ("tikz_07_venn_thuc_te", tikz_07),
+    ("tikz_03a_khoang_doan", tikz_03a),
+    ("tikz_03b_nua_khoang_vo_cuc", tikz_03b),
+    ("tikz_04_giao", tikz_04_giao),
+    ("tikz_05_hop", tikz_05_hop),
+    ("tikz_06_hieu_phanbu", tikz_06_hieu_phanbu),
+    ("tikz_07_truc_so_luyen_tap", tikz_07_truc_so_luyen_tap),
+    ("tikz_08_the_thao", tikz_08_the_thao),
 ]
 
 for name, content in items:
     tex_path = os.path.join(tikz_dir, f"{name}.tex")
     with open(tex_path, "w", encoding="utf-8") as f:
         f.write(content)
-    # Also save to D:\TOAN\SLIDE BAI GIANG\tikz_bai2_tap_hop\
     shutil.copy(tex_path, os.path.join(slide_bai_giang_tikz, f"{name}.tex"))
-    print(f"Saved TeX: {tex_path}")
+    print(f"Saved TeX: {name}.tex")
 
-    # Compile with pdflatex
     res = subprocess.run(
         ["pdflatex", "-interaction=nonstopmode", f"{name}.tex"],
         cwd=tikz_dir,
@@ -328,13 +342,11 @@ for name, content in items:
     )
     if res.returncode == 0:
         pdf_path = os.path.join(tikz_dir, f"{name}.pdf")
-        # Export PNG 600 DPI
         png_prefix = os.path.join(img_out_dir, name)
         subprocess.run(
             ["pdftoppm", "-png", "-r", "600", pdf_path, png_prefix],
             capture_output=True
         )
-        # Find generated png and rename cleanly
         for f in os.listdir(img_out_dir):
             if f.startswith(name) and f.endswith(".png"):
                 src_png = os.path.join(img_out_dir, f)
@@ -343,9 +355,9 @@ for name, content in items:
                 if src_png != dst_png:
                     shutil.move(src_png, dst_png)
                 shutil.copy(dst_png, dst_slide_png)
-                print(f"Compiled 600 DPI PNG: {dst_png}")
+                print(f"Compiled 600 DPI PNG: {name}.png")
                 break
     else:
-        print(f"ERROR compiling {name}:", res.stderr or res.stdout[:500])
+        print(f"ERROR compiling {name}:", res.stderr or res.stdout[:300])
 
-print("All 7 TikZ diagrams created and compiled successfully!")
+print("All TikZ diagrams compiled successfully!")

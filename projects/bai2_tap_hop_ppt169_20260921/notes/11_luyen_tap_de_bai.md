@@ -1,0 +1,1 @@
+Luyện tập: Bài tập 1.15 SGK trang 19. Các em có 5 phút vẽ trục số và tìm các kết quả vào vở.

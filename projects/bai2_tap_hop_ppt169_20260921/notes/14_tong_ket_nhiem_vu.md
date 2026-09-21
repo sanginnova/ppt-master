@@ -1,0 +1,1 @@
+Tổng kết: 4 ghi nhớ then chốt theo đúng 3 mục của bài học và nhiệm vụ về nhà làm bài 1.8 đến 1.16.

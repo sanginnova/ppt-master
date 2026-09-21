@@ -1,0 +1,439 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed-with-warnings",
+  "output": {
+    "path": "D:\\TOAN\\ppt-master\\projects\\bai2_tap_hop_ppt169_20260921\\exports\\bai2_tap_hop_20260921_173048.pptx",
+    "bytes": 2350049
+  },
+  "source": {
+    "svg_slide_count": 14,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "278dcb4adf169cdaab0cec1c4b30c1d5b28f5072cdf041194ed5355a51ab4cc7",
+      "file_count": 14,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "9720f380af9ab5b3741e6b117ff502c4031b57e6a2d91cddae7d12283452a77e"
+        },
+        {
+          "file": "02_muc_tieu.svg",
+          "sha256": "dc3b5dc02b001af3a51342981a0f4966bb9f9272f03d23050eb7c7aa9183ee0f"
+        },
+        {
+          "file": "03_khai_niem_tap_hop.svg",
+          "sha256": "9299b170acaecb11065ea196d66476e5058433319a90bf4a94a3ba9fa7af75ac"
+        },
+        {
+          "file": "04_tap_con_va_bang_nhau.svg",
+          "sha256": "1a3a796935f83c5f8194807c927043d786b4cc0602fe4de82499086ecb1d34d1"
+        },
+        {
+          "file": "05_cac_tap_hop_so.svg",
+          "sha256": "0b3328f42095a0e81b2f1b79b1d9795492fd1a02b1a9be6e6a1403ff8e424cf5"
+        },
+        {
+          "file": "06_khoang_va_doan.svg",
+          "sha256": "66e4b35d8924491746013ae65f541714b2ae461a9adfc3ebbd7a911c5d778a79"
+        },
+        {
+          "file": "07_nua_khoang_va_vo_cuc.svg",
+          "sha256": "c326e6c9888942ff8ab65ca24a68b33bc8f5040539d08d4918fa8b026744c07f"
+        },
+        {
+          "file": "08_phep_giao.svg",
+          "sha256": "99f5151793193ab714e64b0dd28bed86f93a926b38778e299070a4890b1b7eb7"
+        },
+        {
+          "file": "09_phep_hop.svg",
+          "sha256": "4c4af525c3f0825feec50f0b6c1a54c0b8da75c3d35254613260f26b4eb48c24"
+        },
+        {
+          "file": "10_phep_hieu_va_phan_bu.svg",
+          "sha256": "83248108e244397b3025993ca64f5828b898ff97808caa3e04d1def29241fef2"
+        },
+        {
+          "file": "11_luyen_tap_de_bai.svg",
+          "sha256": "98a2c8e2b8972bcbdd16ec2b2ee28d767d3ed57b049a8b5acc1d1772cd9a794a"
+        },
+        {
+          "file": "12_luyen_tap_loi_giai.svg",
+          "sha256": "8581cdabf2c208c6727b9b137981ccb783b79ce0cb823adfc3ea5e15b78790de"
+        },
+        {
+          "file": "13_van_dung_thuc_te.svg",
+          "sha256": "79a26ac6b1b33273ff8d4d20f58c7b39bdc3db3ba76a640b1a5f22fa149255f2"
+        },
+        {
+          "file": "14_tong_ket_nhiem_vu.svg",
+          "sha256": "7bdc025d443a62eef0334aa01d51c98b37f2a75841289e711bc887d4bc54205e"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 14,
+    "notes": 14,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "warning",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "projects\\bai2_tap_hop_ppt169_20260921\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "278dcb4adf169cdaab0cec1c4b30c1d5b28f5072cdf041194ed5355a51ab4cc7",
+      "file_count": 14,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "9720f380af9ab5b3741e6b117ff502c4031b57e6a2d91cddae7d12283452a77e"
+        },
+        {
+          "file": "02_muc_tieu.svg",
+          "sha256": "dc3b5dc02b001af3a51342981a0f4966bb9f9272f03d23050eb7c7aa9183ee0f"
+        },
+        {
+          "file": "03_khai_niem_tap_hop.svg",
+          "sha256": "9299b170acaecb11065ea196d66476e5058433319a90bf4a94a3ba9fa7af75ac"
+        },
+        {
+          "file": "04_tap_con_va_bang_nhau.svg",
+          "sha256": "1a3a796935f83c5f8194807c927043d786b4cc0602fe4de82499086ecb1d34d1"
+        },
+        {
+          "file": "05_cac_tap_hop_so.svg",
+          "sha256": "0b3328f42095a0e81b2f1b79b1d9795492fd1a02b1a9be6e6a1403ff8e424cf5"
+        },
+        {
+          "file": "06_khoang_va_doan.svg",
+          "sha256": "66e4b35d8924491746013ae65f541714b2ae461a9adfc3ebbd7a911c5d778a79"
+        },
+        {
+          "file": "07_nua_khoang_va_vo_cuc.svg",
+          "sha256": "c326e6c9888942ff8ab65ca24a68b33bc8f5040539d08d4918fa8b026744c07f"
+        },
+        {
+          "file": "08_phep_giao.svg",
+          "sha256": "99f5151793193ab714e64b0dd28bed86f93a926b38778e299070a4890b1b7eb7"
+        },
+        {
+          "file": "09_phep_hop.svg",
+          "sha256": "4c4af525c3f0825feec50f0b6c1a54c0b8da75c3d35254613260f26b4eb48c24"
+        },
+        {
+          "file": "10_phep_hieu_va_phan_bu.svg",
+          "sha256": "83248108e244397b3025993ca64f5828b898ff97808caa3e04d1def29241fef2"
+        },
+        {
+          "file": "11_luyen_tap_de_bai.svg",
+          "sha256": "98a2c8e2b8972bcbdd16ec2b2ee28d767d3ed57b049a8b5acc1d1772cd9a794a"
+        },
+        {
+          "file": "12_luyen_tap_loi_giai.svg",
+          "sha256": "8581cdabf2c208c6727b9b137981ccb783b79ce0cb823adfc3ea5e15b78790de"
+        },
+        {
+          "file": "13_van_dung_thuc_te.svg",
+          "sha256": "79a26ac6b1b33273ff8d4d20f58c7b39bdc3db3ba76a640b1a5f22fa149255f2"
+        },
+        {
+          "file": "14_tong_ket_nhiem_vu.svg",
+          "sha256": "7bdc025d443a62eef0334aa01d51c98b37f2a75841289e711bc887d4bc54205e"
+        }
+      ]
+    },
+    "summary": {
+      "total": 14,
+      "passed": 0,
+      "warnings": 14,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 48,
+        "issues": [
+          {
+            "file": "01_cover.svg",
+            "message": "Reference SVG: detected 1 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"cover-card\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "3 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2, <circle> #3, <circle> #4); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "01_cover.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "02_muc_tieu.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"body-grid\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "02_muc_tieu.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "02_muc_tieu.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "03_khai_niem_tap_hop.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "03_khai_niem_tap_hop.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "03_khai_niem_tap_hop.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "04_tap_con_va_bang_nhau.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "04_tap_con_va_bang_nhau.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "04_tap_con_va_bang_nhau.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "05_cac_tap_hop_so.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[15]:transform 'translate(80, 230)' -> 'translate(80 230)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "05_cac_tap_hop_so.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "05_cac_tap_hop_so.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "05_cac_tap_hop_so.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "06_khoang_va_doan.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[12]:transform 'translate(80, 155)' -> 'translate(80 155)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "06_khoang_va_doan.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "06_khoang_va_doan.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "06_khoang_va_doan.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "07_nua_khoang_va_vo_cuc.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[12]:transform 'translate(80, 150)' -> 'translate(80 150)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "07_nua_khoang_va_vo_cuc.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "07_nua_khoang_va_vo_cuc.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "07_nua_khoang_va_vo_cuc.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "08_phep_giao.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "08_phep_giao.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "08_phep_giao.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "09_phep_hop.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "09_phep_hop.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "09_phep_hop.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "10_phep_hieu_va_phan_bu.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "10_phep_hieu_va_phan_bu.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "10_phep_hieu_va_phan_bu.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "11_luyen_tap_de_bai.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[18]:transform 'translate(80, 325)' -> 'translate(80 325)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "11_luyen_tap_de_bai.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"exercise-content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "11_luyen_tap_de_bai.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "11_luyen_tap_de_bai.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "12_luyen_tap_loi_giai.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[12]:transform 'translate(75, 145)' -> 'translate(75 145)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "12_luyen_tap_loi_giai.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"solution-content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "12_luyen_tap_loi_giai.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "12_luyen_tap_loi_giai.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "13_van_dung_thuc_te.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "13_van_dung_thuc_te.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "13_van_dung_thuc_te.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          },
+          {
+            "file": "14_tong_ket_nhiem_vu.svg",
+            "message": "Noncanonical compact authoring: Authoring SVG contains safely compactable page-space metadata (1 attribute(s)); examples: g[13]:transform 'translate(85, 200)' -> 'translate(85 200)' (advisory; normalize with `python3 scripts/compact_svg_coordinates.py <svg_output> --inplace --keep-native-frames`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+          },
+          {
+            "file": "14_tong_ket_nhiem_vu.svg",
+            "message": "Reference SVG: detected 2 visible root-level <g> module(s) without explicit data-pptx-bounds (<g id=\"header-group\">; <g id=\"content\">); every final-page/template root <g> other than a compact authored-preset atom declares its root-coordinate layout subcanvas even when it also carries native coordinates"
+          },
+          {
+            "file": "14_tong_ket_nhiem_vu.svg",
+            "message": "1 ungrouped top-level Slide-local element(s) in svg_output (<rect> #2); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
+          },
+          {
+            "file": "14_tong_ket_nhiem_vu.svg",
+            "message": "page SVG is missing root data-pptx-page-role"
+          }
+        ]
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Arial, 'Segoe UI', sans-serif"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 9,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "D:\\TOAN\\ppt-master\\projects\\bai2_tap_hop_ppt169_20260921\\backup\\20260921_173048\\svg_output",
+  "conversion_trace_path": null
+}

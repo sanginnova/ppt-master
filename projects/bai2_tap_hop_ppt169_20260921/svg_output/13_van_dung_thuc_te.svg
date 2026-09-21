@@ -9,16 +9,16 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">VẬN DỤNG</text>
     
     <!-- Title -->
-    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">ỨNG DỤNG THỰC TẾ &amp; CÔNG THỨC ĐẾM</text>
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">VẬN DỤNG: BÀI TOÁN THỰC TẾ (SGK TRANG 18)</text>
   </g>
   <g id="content">
     <!-- Cột trái: Lời giải bài toán -->
     <rect x="50" y="125" width="580" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">BÀI TOÁN THỂ THAO (SGK TR.18)</text>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">BÀI TOÁN THỂ THAO LỚP 10A</text>
 
     <text x="85" y="225" fill="#0F172A" font-size="28" font-weight="600">Lớp 10A có 24 bạn thi đấu thể thao:</text>
     <text x="85" y="270" fill="#1E40AF" font-size="28" font-weight="700">• Bóng đá: 16 bạn  |  Cầu lông: 11 bạn.</text>
@@ -33,10 +33,10 @@
     <text x="85" y="540" fill="#0F172A" font-size="28" font-weight="700">Suy ra: <tspan data-pptx-inline-formula="n(A \cap B) = 16 + 11 - 24 = 3">n(A ∩ B) = 16 + 11 - 24 = 3</tspan></text>
     <text x="85" y="605" fill="#047857" font-size="34" font-weight="800">⇒ Kết quả: Có 3 bạn thi cả 2 môn!</text>
 
-    <!-- Cột phải: TikZ Diagram 07 Biểu đồ Ven thể thao -->
+    <!-- Cột phải: TikZ 08 Biểu đồ Ven thể thao -->
     <rect x="650" y="125" width="580" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
     <text x="940" y="175" fill="#047857" font-size="30" font-weight="800" text-anchor="middle">BIỂU ĐỒ VEN PHÂN BỔ HỌC SINH</text>
-    <image href="../images/tikz_07_venn_thuc_te.png" x="670" y="200" width="540" height="345" preserveAspectRatio="xMidYMid meet"/>
+    <image href="../images/tikz_08_the_thao.png" x="670" y="200" width="540" height="345" preserveAspectRatio="xMidYMid meet"/>
     <rect x="675" y="565" width="530" height="85" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
     <text x="940" y="618" fill="#0F172A" font-size="28" font-weight="700" text-anchor="middle">Tổng kiểm tra: 13 + 3 + 8 = 24 bạn</text>
   </g>

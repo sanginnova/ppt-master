@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC 3.c</text>
+    
+    <!-- Title -->
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">3. CÁC PHÉP TOÁN: c. Hiệu của hai tập hợp &amp; Phần bù</text>
+  </g>
+  <g id="content">
+    <!-- Cột trái: Định nghĩa Hiệu & Phần bù -->
+    <rect x="50" y="125" width="670" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">1. ĐỊNH NGHĨA PHÉP HIỆU (<tspan data-pptx-inline-formula="A \setminus B">A \ B</tspan>)</text>
+    <text x="85" y="220" fill="#0F172A" font-size="28" font-weight="700">Gồm các phần tử thuộc A nhưng KHÔNG thuộc B:</text>
+    <rect x="85" y="245" width="600" height="75" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="385" y="292" fill="#1E40AF" font-size="28" font-weight="800" text-anchor="middle"><tspan data-pptx-inline-formula="A \setminus B = \{x \mid x \in A \text{ và } x \notin B\}">A \ B = {x | x ∈ A và x ∉ B}</tspan></text>
+
+    <line x1="85" y1="340" x2="680" y2="340" stroke="#E2E8F0" stroke-width="2"/>
+
+    <text x="85" y="385" fill="#B45309" font-size="30" font-weight="800">2. ĐỊNH NGHĨA PHẦN BÙ (<tspan data-pptx-inline-formula="C_E A">C_E A</tspan>)</text>
+    <text x="85" y="430" fill="#0F172A" font-size="28" font-weight="700">Khi A là tập con của E (<tspan data-pptx-inline-formula="A \subset E">A ⊂ E</tspan>):</text>
+    <rect x="85" y="455" width="600" height="75" rx="12" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+    <text x="385" y="502" fill="#B45309" font-size="28" font-weight="800" text-anchor="middle"><tspan data-pptx-inline-formula="C_E A = E \setminus A">C_E A = E \ A</tspan> (Phần còn thiếu để đủ E)</text>
+
+    <rect x="85" y="555" width="600" height="95" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="105" y="595" fill="#0F172A" font-size="28" font-weight="700">VD: <tspan data-pptx-inline-formula="C_{\mathbb{R}} [0; +\infty) = \mathbb{R} \setminus [0; +\infty) = (-\infty; 0)">C_ℝ [0; +∞) = ℝ \ [0; +∞) = (-∞; 0)</tspan></text>
+    <text x="105" y="635" fill="#DC2626" font-size="28" font-weight="700">⚠️ Lưu ý: Đổi mút từ ngoặc vuông sang tròn!</text>
+
+    <!-- TikZ 06: Biểu đồ Ven Hiệu và Phần bù -->
+    <rect x="750" y="125" width="480" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="990" y="175" fill="#1E40AF" font-size="30" font-weight="800" text-anchor="middle">BIỂU ĐỒ VEN MINH HỌA</text>
+    <image href="../images/tikz_06_hieu_phanbu.png" x="760" y="220" width="460" height="340" preserveAspectRatio="xMidYMid meet"/>
+    <text x="990" y="635" fill="#64748B" font-size="28" font-weight="600" text-anchor="middle">Vùng khuyết (Hiệu) &amp; Khung E (Phần bù)</text>
+  </g>
+
+</svg>

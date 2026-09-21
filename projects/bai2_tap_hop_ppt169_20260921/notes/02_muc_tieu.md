@@ -1,1 +1,1 @@
-Bài học hôm nay nhằm trang bị 3 trụ cột: Khái niệm tập hợp, biểu diễn tập số trên trục số, và 4 phép toán cơ bản giao, hợp, hiệu, phần bù.
+Tiết học này giúp các em nắm vững khái niệm tập con, các tập hợp số, thực hiện thành thạo phép giao, hợp, hiệu và biểu diễn chuẩn trên trục số.

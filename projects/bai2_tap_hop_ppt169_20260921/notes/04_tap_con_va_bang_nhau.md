@@ -1,0 +1,1 @@
+Mục 1.b và 1.c: Định nghĩa tập hợp con khi mọi phần tử của A đều thuộc B. Biểu đồ Ven minh họa trực quan hình tròn A nằm trọn trong B.

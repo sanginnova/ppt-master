@@ -1,0 +1,43 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  % Outer universe
+  \draw[rounded corners=12pt, fill=slate!5, draw=slate!70!black, very thick] (-4.5,-2.8) rectangle (4.5,2.8);
+  \node[font=\bfseries\Large, text=slate!80!black] at (-3.2, 2.3) {Lớp 10A ($24$ bạn)};
+
+  % Set Football (16)
+  \draw[fill=blue!20, draw=blue!80!black, very thick, opacity=0.75] (-1.1,0) circle (2.0cm);
+
+  % Set Badminton (11)
+  \draw[fill=green!20, draw=green!70!black, very thick, opacity=0.75] (1.1,0) circle (2.0cm);
+
+  % Overlap
+  \begin{scope}
+    \clip (-1.1,0) circle (2.0cm);
+    \fill[yellow!50] (1.1,0) circle (2.0cm);
+  \end{scope}
+
+  % Labels
+  \node[font=\bfseries\Large, text=blue!90!black] at (-2.0, 1.4) {Bóng đá ($16$)};
+  \node[font=\bfseries\Huge, text=blue!90!black] at (-1.8, -0.2) {$13$};
+
+  \node[font=\bfseries\Large, text=green!70!black] at (2.0, 1.4) {Cầu lông ($11$)};
+  \node[font=\bfseries\Huge, text=green!70!black] at (1.8, -0.2) {$8$};
+
+  \node[font=\bfseries\normalsize, text=orange!90!black] at (0, 0.6) {Cả 2 môn};
+  \node[font=\bfseries\Huge, text=red!80!black] at (0, -0.3) {$3$};
+
+  \node[font=\bfseries\large, text=blue!80!black] at (0, -2.3) {$n(A \cup B) = 13 + 3 + 8 = 24$};
+
+\end{tikzpicture}
+\end{document}

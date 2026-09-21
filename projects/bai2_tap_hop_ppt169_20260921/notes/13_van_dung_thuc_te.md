@@ -1,0 +1,1 @@
+Vận dụng bài toán thể thao SGK trang 18: Áp dụng công thức số phần tử hợp bằng tổng hai tập trừ giao, tìm ra 3 bạn chơi cả hai môn.

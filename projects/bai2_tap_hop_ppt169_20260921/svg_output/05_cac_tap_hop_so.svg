@@ -9,11 +9,11 @@
     <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
     
     <!-- Tag badge -->
-    <rect x="75" y="38" width="115" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
-    <text x="132" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">BÀI 2</text>
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC 2.a</text>
     
     <!-- Title -->
-    <text x="210" y="73" fill="#0F172A" font-size="32" font-weight="800">3. CÁC TẬP HỢP SỐ VÀ CHUỖI BAO HÀM</text>
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">2. CÁC TẬP HỢP SỐ: a. Mối quan hệ giữa các tập hợp số</text>
   </g>
   <g id="content">
     <rect x="50" y="120" width="1180" height="70" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>

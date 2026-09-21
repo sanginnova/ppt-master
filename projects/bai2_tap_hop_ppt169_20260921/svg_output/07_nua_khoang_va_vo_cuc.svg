@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="120" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="135" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC 2.b</text>
+    
+    <!-- Title -->
+    <text x="215" y="73" fill="#0F172A" font-size="30" font-weight="800">2. CÁC TẬP HỢP SỐ: b. Nửa khoảng &amp; Khoảng vô cực</text>
+  </g>
+  <g id="content">
+    <!-- Cột trái: Định nghĩa Nửa khoảng & Vô cực -->
+    <rect x="50" y="125" width="560" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <g transform="translate(80, 150)">
+      <text x="0" y="35" fill="#D97706" font-size="30" font-weight="800">3. NỬA KHOẢNG (LẤY 1 MÚT):</text>
+      <text x="0" y="75" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="[a; b) = \{x \in \mathbb{R} \mid a \le x &lt; b\}">[a; b) = {x ∈ ℝ | a ≤ x &lt; b}</tspan></text>
+      <text x="0" y="115" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="(a; b] = \{x \in \mathbb{R} \mid a &lt; x \le b\}">(a; b] = {x ∈ ℝ | a &lt; x ≤ b}</tspan></text>
+
+      <line x1="0" y1="140" x2="500" y2="140" stroke="#F1F5F9" stroke-width="2"/>
+
+      <text x="0" y="180" fill="#7C3AED" font-size="30" font-weight="800">4. KHOẢNG VÔ CỰC:</text>
+      <text x="0" y="220" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="[a; +\infty) = \{x \in \mathbb{R} \mid x \ge a\}">[a; +∞) = {x ∈ ℝ | x ≥ a}</tspan></text>
+      <text x="0" y="260" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="(a; +\infty) = \{x \in \mathbb{R} \mid x &gt; a\}">(a; +∞) = {x ∈ ℝ | x &gt; a}</tspan></text>
+      <text x="0" y="300" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="(-\infty; b) = \{x \in \mathbb{R} \mid x &lt; b\}">(-∞; b) = {x ∈ ℝ | x &lt; b}</tspan></text>
+      <text x="0" y="340" fill="#0F172A" font-size="28" font-weight="600">• <tspan data-pptx-inline-formula="(-\infty; +\infty) = \mathbb{R}">(-∞; +∞) = ℝ</tspan></text>
+
+      <rect x="0" y="375" width="500" height="110" rx="12" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+      <text x="15" y="415" fill="#92400E" font-size="28" font-weight="800">QUY TẮC VÀNG TRỤC SỐ:</text>
+      <text x="15" y="455" fill="#0F172A" font-size="28" font-weight="600">Lấy mút: [ ]. Bỏ mút: ( ). Gạch bỏ ngoài tập.</text>
+    </g>
+
+    <!-- Cột phải: TikZ Diagram 03B Trục số Nửa khoảng & Vô cực -->
+    <rect x="630" y="125" width="600" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="930" y="165" fill="#D97706" font-size="30" font-weight="800" text-anchor="middle">HÌNH VẼ TRỤC SỐ NỬA KHOẢNG</text>
+    <image href="../images/tikz_03b_nua_khoang_vo_cuc.png" x="650" y="180" width="560" height="470" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+</svg>

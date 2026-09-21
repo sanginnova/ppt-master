@@ -1,0 +1,62 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns,patterns.meta,angles,quotes}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,font=\large]
+
+  [every node/.style={font=\normalsize}]
+  % 1. Nửa khoảng [a; b)
+  \node[anchor=west, font=\bfseries\large, text=orange!80!black] at (-5.2, 3.2) {Nửa khoảng $[a; b) = \{x \in \mathbb{R} \mid a \le x < b\}$};
+  \draw[->, thick] (-5.2, 2.3) -- (5.5, 2.3) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, 2.0) -- (\x+0.3, 2.6);
+  \draw[line width=3.5pt, orange!80!black] (-1, 2.3) -- (3, 2.3);
+  \node[font=\Huge\bfseries, text=orange!80!black] at (-1, 2.3) {$[$};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, 2.3) {$a$};
+  \node[font=\Huge\bfseries, text=orange!80!black] at (3, 2.3) {$)$};
+  \node[below=4pt, text=black, font=\bfseries] at (3, 2.3) {$b$};
+  \foreach \x in {3.1,3.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, 2.0) -- (\x+0.3, 2.6);
+
+  % 2. Nửa khoảng (a; b]
+  \node[anchor=west, font=\bfseries\large, text=blue!80!black] at (-5.2, 1.1) {Nửa khoảng $(a; b] = \{x \in \mathbb{R} \mid a < x \le b\}$};
+  \draw[->, thick] (-5.2, 0.2) -- (5.5, 0.2) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, -0.1) -- (\x+0.3, 0.5);
+  \draw[line width=3.5pt, blue!80!black] (-1, 0.2) -- (3, 0.2);
+  \node[font=\Huge\bfseries, text=blue!80!black] at (-1, 0.2) {$($};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, 0.2) {$a$};
+  \node[font=\Huge\bfseries, text=blue!80!black] at (3, 0.2) {$]$};
+  \node[below=4pt, text=black, font=\bfseries] at (3, 0.2) {$b$};
+  \foreach \x in {3.1,3.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, -0.1) -- (\x+0.3, 0.5);
+
+  % 3. Khoảng vô cực [a; +infinity)
+  \node[anchor=west, font=\bfseries\large, text=purple!80!black] at (-5.2, -1.0) {Nửa khoảng $[a; +\infty) = \{x \in \mathbb{R} \mid x \ge a\}$};
+  \draw[->, thick] (-5.2, -1.9) -- (5.5, -1.9) node[right] {$x$};
+  \foreach \x in {-5.0,-4.6,...,-1.2}
+    \draw[gray!60, line width=0.8pt] (\x, -2.2) -- (\x+0.3, -1.6);
+  \draw[line width=3.5pt, purple!80!black] (-1, -1.9) -- (5.3, -1.9);
+  \node[font=\Huge\bfseries, text=purple!80!black] at (-1, -1.9) {$[$};
+  \node[below=4pt, text=black, font=\bfseries] at (-1, -1.9) {$a$};
+  \node[below=4pt, text=purple!80!black, font=\bfseries] at (4.8, -1.9) {$+\infty$};
+
+  % 4. Khoảng vô cực (-infinity; b)
+  \node[anchor=west, font=\bfseries\large, text=red!80!black] at (-5.2, -3.1) {Khoảng vô cực $(-\infty; b) = \{x \in \mathbb{R} \mid x < b\}$};
+  \draw[->, thick] (-5.2, -4.0) -- (5.5, -4.0) node[right] {$x$};
+  \draw[line width=3.5pt, red!80!black] (-5.0, -4.0) -- (2, -4.0);
+  \node[below=4pt, text=red!80!black, font=\bfseries] at (-4.5, -4.0) {$-\infty$};
+  \node[font=\Huge\bfseries, text=red!80!black] at (2, -4.0) {$)$};
+  \node[below=4pt, text=black, font=\bfseries] at (2, -4.0) {$b$};
+  \foreach \x in {2.1,2.5,...,5.1}
+    \draw[gray!60, line width=0.8pt] (\x, -4.3) -- (\x+0.3, -3.7);
+
+\end{tikzpicture}
+\end{document}
