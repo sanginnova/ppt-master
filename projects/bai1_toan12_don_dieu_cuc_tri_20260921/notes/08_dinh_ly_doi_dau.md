@@ -1,0 +1,1 @@
+Mục II.b: Dấu hiệu tìm cực trị qua sự đổi dấu đạo hàm: từ dương sang âm là cực đại, từ âm sang dương là cực tiểu.

@@ -1,0 +1,22 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\large]
+  \tkzTabInit[lgt=2.2,espcl=3.2,deltacl=0.8]
+  {$x$ /1.0, $y'$ /1.0, $y$ /2.2}
+  {$-\infty$, $0$, $2$, $+\infty$}
+  \tkzTabLine{,+,0,-,0,+,}
+  \tkzTabVar{-/ $-\infty$, +/ $2$, -/ $-2$, +/ $+\infty$}
+\end{tikzpicture}
+
+\end{document}

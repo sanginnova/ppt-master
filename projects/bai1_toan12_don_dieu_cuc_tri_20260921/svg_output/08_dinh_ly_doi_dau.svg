@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC II.b</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="30" font-weight="800">II. CỰC TRỊ: b. Định lý đổi dấu đạo hàm</text>
+  </g>
+  <g id="content">
+    <rect x="50" y="125" width="1180" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">ĐỊNH LÝ DẤU HIỆU CỰC TRỊ (SGK TRANG 10)</text>
+
+    <!-- TikZ 04 Bang doi dau f' -->
+    <image href="../images/tikz_04_dinh_ly_doi_dau_fphay.png" x="85" y="200" width="1110" height="260" preserveAspectRatio="xMidYMid meet"/>
+
+    <g transform="translate(85, 480)">
+      <rect x="0" y="0" width="540" height="160" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+      <text x="25" y="45" fill="#1D4ED8" font-size="30" font-weight="800">QUY TẮC CỰC ĐẠI:</text>
+      <text x="25" y="90" fill="#0F172A" font-size="28" font-weight="600">Đạo hàm đổi dấu từ <tspan data-pptx-inline-formula="(+)">dương (+)</tspan> sang <tspan data-pptx-inline-formula="(-)">âm (-)</tspan></text>
+      <text x="25" y="135" fill="#1E40AF" font-size="28" font-weight="800">→ Hàm số đạt CỰC ĐẠI tại <tspan data-pptx-inline-formula="x_0">x₀</tspan></text>
+
+      <rect x="570" y="0" width="540" height="160" rx="14" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+      <text x="595" y="45" fill="#DC2626" font-size="30" font-weight="800">QUY TẮC CỰC TIỂU:</text>
+      <text x="595" y="90" fill="#0F172A" font-size="28" font-weight="600">Đạo hàm đổi dấu từ <tspan data-pptx-inline-formula="(-)">âm (-)</tspan> sang <tspan data-pptx-inline-formula="(+)">dương (+)</tspan></text>
+      <text x="595" y="135" fill="#B91C1C" font-size="28" font-weight="800">→ Hàm số đạt CỰC TIỂU tại <tspan data-pptx-inline-formula="x_0">x₀</tspan></text>
+    </g>
+  </g>
+
+</svg>

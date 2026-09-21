@@ -1,0 +1,1 @@
+Luyện tập: Cho hàm bậc ba y = x^3 - 3x^2 + 2. Các em áp dụng quy trình 4 bước làm vào vở trong 5 phút.

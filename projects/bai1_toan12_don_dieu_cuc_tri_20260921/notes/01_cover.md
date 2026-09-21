@@ -1,0 +1,1 @@
+Chào mừng các em học sinh đến với chương trình Toán 12. Bài mở đầu Chương I: Tính đơn điệu và cực trị của hàm số.

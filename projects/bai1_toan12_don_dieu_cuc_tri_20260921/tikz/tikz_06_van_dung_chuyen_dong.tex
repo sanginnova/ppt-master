@@ -1,0 +1,31 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=1.0,font=\large]
+  \draw[->, thick] (-0.8,0) -- (5.5,0) node[below] {$t\text{ (giây)}$};
+  \draw[->, thick] (0,-0.8) -- (0,4.5) node[left] {$v(t)\text{ (m/s)}$};
+  \node[below left] at (0,0) {$O$};
+
+  % Do thi parabol v(t) = -t^2 + 6t
+  \draw[very thick, teal!80!black, smooth, domain=0:5.2] plot (\x, {-0.3*(\x)^2 + 1.8*(\x) + 0.8});
+
+  % Dinh van toc cuc dai tai t = 3
+  \coordinate (M) at (3, 3.5);
+  \draw[dashed, gray] (3,0) node[below, text=black, font=\bfseries] {$t = 3$} -- (M) -- (0,3.5) node[left, text=black, font=\bfseries] {$v_{\max} = 35$};
+  \fill[red!90!black] (M) circle (3pt) node[above=4pt, text=red!90!black, font=\bfseries\Large] {Vận tốc đạt cực đại};
+  
+  \node[font=\normalsize, text=teal!90!black] at (4.2, 1.8) {$v'(t) = 0 \Leftrightarrow t = 3$};
+  \node[font=\large, text=gray!80!black] at (2.5, -1.2) {Vận tốc tăng từ $0 \to 3$s và giảm từ sau $3$s};
+\end{tikzpicture}
+
+\end{document}

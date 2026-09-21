@@ -1,0 +1,1 @@
+Tiết học này giúp các em làm chủ mối liên hệ giữa dấu đạo hàm và tính đơn điệu, nắm vững khái niệm cực trị và lập thành thạo bảng biến thiên.

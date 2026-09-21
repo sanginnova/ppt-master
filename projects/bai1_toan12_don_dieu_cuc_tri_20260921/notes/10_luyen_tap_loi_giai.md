@@ -1,0 +1,1 @@
+Hướng dẫn giải chi tiết: Hàm số có 2 điểm cực trị x = 0 và x = 2. Giá trị cực đại y = 2, giá trị cực tiểu y = -2.

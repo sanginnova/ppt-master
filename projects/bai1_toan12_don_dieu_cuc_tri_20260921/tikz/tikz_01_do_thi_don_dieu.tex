@@ -1,0 +1,58 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=0.9,font=\large]
+  % Do thi dong bien (ben trai)
+  \begin{scope}[shift={(-4.2,0)}]
+    \node[font=\bfseries\Large, text=blue!80!black] at (0, 3.2) {ĐỒNG BIẾN (TĂNG)};
+    \draw[->, thick] (-2.5,0) -- (3,0) node[below] {$x$};
+    \draw[->, thick] (0,-1.5) -- (0,3) node[left] {$y$};
+    \node[below left] at (0,0) {$O$};
+
+    % Do thi y = x^3/4 - x/2 + 0.8
+    \draw[very thick, blue!80!black, smooth, domain=-2:2.2] plot (\x, {0.2*(\x)^3 + 0.3*(\x) + 0.5});
+    
+    % Hai diem x1 < x2
+    \coordinate (X1) at (-1, 0.2);
+    \coordinate (X2) at (1.5, 1.625);
+    \draw[dashed, gray] (-1,0) node[below, text=black] {$x_1$} -- (-1,0.2) -- (0,0.2) node[left, text=black] {$f(x_1)$};
+    \draw[dashed, gray] (1.5,0) node[below, text=black] {$x_2$} -- (1.5,1.625) -- (0,1.625) node[left, text=black] {$f(x_2)$};
+    \fill[blue!90!black] (-1,0.2) circle (2.5pt);
+    \fill[blue!90!black] (1.5,1.625) circle (2.5pt);
+
+    \node[font=\bfseries, text=blue!90!black] at (0, -2.2) {$x_1 < x_2 \Rightarrow f(x_1) < f(x_2)$};
+    \node[font=\normalsize, text=gray!80!black] at (0, -2.8) {Đồ thị đi lên từ trái sang phải};
+  \end{scope}
+
+  % Do thi nghich bien (ben phai)
+  \begin{scope}[shift={(4.2,0)}]
+    \node[font=\bfseries\Large, text=red!80!black] at (0, 3.2) {NGHỊCH BIẾN (GIẢM)};
+    \draw[->, thick] (-2.5,0) -- (3,0) node[below] {$x$};
+    \draw[->, thick] (0,-1.5) -- (0,3) node[left] {$y$};
+    \node[below left] at (0,0) {$O$};
+
+    % Do thi y = -0.2*x^3 - 0.3*x + 0.5
+    \draw[very thick, red!80!black, smooth, domain=-2.2:2] plot (\x, {-0.2*(\x)^3 - 0.3*(\x) + 0.5});
+
+    % Hai diem x1 < x2
+    \draw[dashed, gray] (-1.5,0) node[below, text=black] {$x_1$} -- (-1.5,1.625) -- (0,1.625) node[left, text=black] {$f(x_1)$};
+    \draw[dashed, gray] (1,0) node[below, text=black] {$x_2$} -- (1,0) -- (0,0) node[right, text=black] {$f(x_2)$};
+    \fill[red!90!black] (-1.5,1.625) circle (2.5pt);
+    \fill[red!90!black] (1,0) circle (2.5pt);
+
+    \node[font=\bfseries, text=red!90!black] at (0, -2.2) {$x_1 < x_2 \Rightarrow f(x_1) > f(x_2)$};
+    \node[font=\normalsize, text=gray!80!black] at (0, -2.8) {Đồ thị đi xuống từ trái sang phải};
+  \end{scope}
+\end{tikzpicture}
+
+\end{document}

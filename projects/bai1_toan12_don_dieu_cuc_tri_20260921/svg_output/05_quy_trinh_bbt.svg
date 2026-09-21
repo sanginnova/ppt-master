@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <!-- Header Banner (Cỡ chữ >= 28) -->
+  <g id="header-group">
+    <rect x="50" y="25" width="1180" height="75" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="50" y="25" width="8" height="75" rx="4" fill="#2563EB"/>
+    
+    <!-- Tag badge -->
+    <rect x="75" y="38" width="135" height="48" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="142" y="72" fill="#1D4ED8" font-size="28" font-weight="800" text-anchor="middle">MỤC I.b</text>
+    
+    <!-- Title -->
+    <text x="230" y="73" fill="#0F172A" font-size="30" font-weight="800">I. TÍNH ĐƠN ĐIỆU: b. Quy trình xét qua Bảng biến thiên</text>
+  </g>
+  <g id="content">
+    <!-- Cot trai: 4 buoc xet tinh don dieu -->
+    <rect x="50" y="125" width="560" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="85" y="175" fill="#1D4ED8" font-size="30" font-weight="800">4 BƯỚC XÉT ĐƠN ĐIỆU CHUẨN SGK</text>
+
+    <g transform="translate(85, 205)">
+      <rect x="0" y="0" width="490" height="95" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+      <text x="20" y="40" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC 1: Tìm tập xác định (TXĐ)</text>
+      <text x="20" y="78" fill="#0F172A" font-size="28" font-weight="600">Tìm tập xác định D của hàm số.</text>
+
+      <rect x="0" y="110" width="490" height="105" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+      <text x="20" y="150" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC 2: Tính đạo hàm <tspan data-pptx-inline-formula="y' = f'(x)">y' = f'(x)</tspan></text>
+      <text x="20" y="192" fill="#0F172A" font-size="28" font-weight="600">Tìm các điểm <tspan data-pptx-inline-formula="x_i">x_i</tspan> mà <tspan data-pptx-inline-formula="f'(x_i) = 0">f'(x_i) = 0</tspan> hoặc ko xác định.</text>
+
+      <rect x="0" y="230" width="490" height="105" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+      <text x="20" y="270" fill="#1E40AF" font-size="28" font-weight="800">BƯỚC 3: Lập Bảng biến thiên (BBT)</text>
+      <text x="20" y="312" fill="#0F172A" font-size="28" font-weight="600">Sắp xếp <tspan data-pptx-inline-formula="x_i">x_i</tspan> tăng dần, xét dấu <tspan data-pptx-inline-formula="f'(x)">f'(x)</tspan>.</text>
+
+      <rect x="0" y="350" width="490" height="95" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+      <text x="20" y="390" fill="#047857" font-size="28" font-weight="800">BƯỚC 4: Kết luận các khoảng</text>
+      <text x="20" y="428" fill="#166534" font-size="28" font-weight="700">Chỉ ra khoảng đồng biến, nghịch biến.</text>
+    </g>
+
+    <!-- Cot phai: TikZ 02 Bảng biến thiên chuẩn -->
+    <rect x="630" y="125" width="600" height="545" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="930" y="170" fill="#047857" font-size="30" font-weight="800" text-anchor="middle">MẪU BẢNG BIẾN THIÊN CHUẨN</text>
+    <image href="../images/tikz_02_bbt_don_dieu.png" x="650" y="210" width="560" height="260" preserveAspectRatio="xMidYMid meet"/>
+
+    <rect x="650" y="500" width="560" height="145" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="670" y="545" fill="#1E40AF" font-size="28" font-weight="800">ĐỌC KẾT QUẢ TỪ BẢNG BIẾN THIÊN:</text>
+    <text x="670" y="585" fill="#0F172A" font-size="28" font-weight="600">• Đồng biến trên: <tspan data-pptx-inline-formula="(-\infty; -1)">(-∞; -1)</tspan> và <tspan data-pptx-inline-formula="(2; +\infty)">(2; +∞)</tspan></text>
+    <text x="670" y="625" fill="#DC2626" font-size="28" font-weight="700">• Nghịch biến trên khoảng: <tspan data-pptx-inline-formula="(-1; 2)">(-1; 2)</tspan></text>
+  </g>
+
+</svg>

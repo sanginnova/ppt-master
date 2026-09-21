@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="vi-VN" font-family="Arial, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+
+  <circle cx="1180" cy="110" r="200" fill="#EFF6FF" opacity="0.6"/>
+  <circle cx="1120" cy="620" r="160" fill="#F0FDFA" opacity="0.6"/>
+
+  <g id="cover-card">
+    <rect x="60" y="45" width="1160" height="630" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="60" y="45" width="1160" height="14" rx="7" fill="#1E3A8A"/>
+
+    <text x="110" y="110" fill="#1E40AF" font-size="28" font-weight="800">TRƯỜNG CĐ NGHỀ SỐ 1 - BQP • KHOA CƠ BẢN</text>
+    <line x1="110" y1="130" x2="800" y2="130" stroke="#E2E8F0" stroke-width="2"/>
+
+    <rect x="110" y="155" width="220" height="46" rx="10" fill="#DBEAFE"/>
+    <text x="220" y="188" fill="#1E40AF" font-size="28" font-weight="800" text-anchor="middle">CHƯƠNG I - GIẢI TÍCH</text>
+
+    <text x="110" y="260" fill="#0F172A" font-size="44" font-weight="800">BÀI 1. TÍNH ĐƠN ĐIỆU VÀ CỰC TRỊ</text>
+    <text x="110" y="320" fill="#2563EB" font-size="44" font-weight="800">CỦA HÀM SỐ</text>
+    <text x="110" y="380" fill="#475569" font-size="28" font-weight="600">Toán 12 — Sách Kết nối tri thức với cuộc sống</text>
+
+    <rect x="110" y="425" width="460" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="340" y="465" fill="#0F172A" font-size="28" font-weight="700" text-anchor="middle">I. Tính đơn điệu của hàm số</text>
+
+    <rect x="600" y="425" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="860" y="465" fill="#0F172A" font-size="28" font-weight="700" text-anchor="middle">II. Cực trị của hàm số</text>
+
+    <rect x="110" y="520" width="1010" height="110" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="150" y="565" fill="#1E3A8A" font-size="30" font-weight="800">Giảng viên: ThS. Nguyễn Văn Sang</text>
+    <text x="150" y="605" fill="#475569" font-size="28" font-weight="600">Khoa Cơ bản — Tiết PPCT: 01 - 02</text>
+  </g>
+
+</svg>

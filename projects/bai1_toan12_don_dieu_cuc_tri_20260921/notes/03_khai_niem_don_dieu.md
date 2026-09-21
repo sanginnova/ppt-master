@@ -1,0 +1,1 @@
+Mục I.a: Nhắc lại tính đồng biến khi x tăng thì y tăng (đồ thị đi lên), nghịch biến khi x tăng thì y giảm (đồ thị đi xuống).

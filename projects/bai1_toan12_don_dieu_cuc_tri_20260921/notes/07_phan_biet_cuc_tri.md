@@ -1,0 +1,1 @@
+Phân biệt 3 khái niệm: Điểm cực trị hàm số x0, Giá trị cực trị y0, và Điểm cực trị của đồ thị hàm số M(x0; y0).

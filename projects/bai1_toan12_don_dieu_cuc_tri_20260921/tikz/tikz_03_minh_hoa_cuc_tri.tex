@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tkz-tab}
+\usetikzlibrary{calc,shapes,backgrounds,arrows.meta,patterns}
+
+\definecolor{slate}{RGB}{100,116,139}
+
+\begin{document}
+
+\begin{tikzpicture}[>=stealth,line join=round,line cap=round,scale=1.1,font=\large]
+  % Truc Oxy
+  \draw[->, thick] (-2.2,0) -- (3.5,0) node[below] {$x$};
+  \draw[->, thick] (0,-2.2) -- (0,3.5) node[left] {$y$};
+  \node[below left] at (0,0) {$O$};
+
+  % Do thi y = x^3 - 3x + 1
+  \draw[very thick, blue!80!black, smooth, domain=-2.1:2.3] plot (\x, {0.6*((\x)^3 - 3*(\x)) + 1});
+
+  % Diem Cuc Dai A(-1, 2.2)
+  \coordinate (A) at (-1, 2.2);
+  \draw[dashed, gray] (-1,0) node[below, text=black, font=\bfseries] {$x_{CĐ}$} -- (A) -- (0,2.2) node[left, text=black, font=\bfseries] {$y_{CĐ}$};
+  \fill[blue!90!black] (A) circle (3pt) node[above=4pt, text=blue!90!black, font=\bfseries\Large] {Điểm Cực Đại};
+  \draw[thick, blue!80!black, <->] (-1.8, 2.2) -- (-0.2, 2.2);
+  \node[above, font=\footnotesize, text=gray!80!black] at (-1, 2.4) {Tiếp tuyến ngang: $y'=0$};
+
+  % Diem Cuc Tieu B(1, -0.2)
+  \coordinate (B) at (1, -0.2);
+  \draw[dashed, gray] (1,0) node[above=4pt, text=black, font=\bfseries] {$x_{CT}$} -- (B) -- (0,-0.2) node[left, text=black, font=\bfseries] {$y_{CT}$};
+  \fill[red!90!black] (B) circle (3pt) node[below=6pt, text=red!90!black, font=\bfseries\Large] {Điểm Cực Tiểu};
+  \draw[thick, red!80!black, <->] (0.2, -0.2) -- (1.8, -0.2);
+  \node[below, font=\footnotesize, text=gray!80!black] at (1, -0.4) {Tiếp tuyến ngang: $y'=0$};
+\end{tikzpicture}
+
+\end{document}

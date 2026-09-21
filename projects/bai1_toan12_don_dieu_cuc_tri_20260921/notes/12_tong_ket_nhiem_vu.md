@@ -1,0 +1,1 @@
+Tổng kết 4 ghi nhớ then chốt của Bài 1 và dặn dò các em hoàn thành bài tập 1.1 đến 1.8 SGK trang 11-12.

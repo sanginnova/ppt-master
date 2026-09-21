@@ -1,0 +1,1 @@
+Định lý then chốt của Giải tích 12: Đạo hàm mang dấu dương thì hàm số đồng biến; đạo hàm mang dấu âm thì hàm số nghịch biến.

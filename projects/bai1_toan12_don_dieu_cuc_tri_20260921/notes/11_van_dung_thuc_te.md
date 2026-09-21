@@ -1,0 +1,1 @@
+Vận dụng thực tế: Ứng dụng đạo hàm tìm thời điểm vận tốc cực đại trong chuyển động tên lửa/vật rơi tại t = 3 giây.

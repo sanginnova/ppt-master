@@ -186,6 +186,8 @@ projects/*
 !projects/README.md
 !projects/bai2_tap_hop_ppt169_20260921/
 projects/bai2_tap_hop_ppt169_20260921/backup/
+!projects/bai1_toan12_don_dieu_cuc_tri_20260921/
+projects/bai1_toan12_don_dieu_cuc_tri_20260921/backup/
 *.aux
 *.log
 *.synctex.gz

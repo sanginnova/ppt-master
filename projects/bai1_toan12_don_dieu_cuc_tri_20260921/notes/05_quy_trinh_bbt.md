@@ -1,0 +1,1 @@
+Quy trình 4 bước lập bảng biến thiên chuẩn SGK: Tìm TXĐ, tính đạo hàm tìm nghiệm, lập bảng biến thiên và kết luận các khoảng.
